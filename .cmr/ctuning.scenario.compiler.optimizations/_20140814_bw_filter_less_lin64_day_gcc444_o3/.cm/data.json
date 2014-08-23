@@ -1,0 +1,1773 @@
+{
+  "cm_access_control": {
+    "comments_groups": "registered", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_display_as_alias": "_20140814_bw_filter_less_lin64_day_gcc444_o3", 
+  "cm_stat_characteristics": {
+    "75581c4a4e4072c8": {
+      "output": {
+        "global_execution_time_div_by_repeat": {
+          "all": [
+            "0.00315625"
+          ], 
+          "delta": "0.0", 
+          "delta_percent": "0.0000", 
+          "max": "0.00315625", 
+          "min": "0.00315625", 
+          "nortest_cvm": {}, 
+          "nortest_lillie": {}, 
+          "nortest_pearson": {}, 
+          "number": "1"
+        }, 
+        "run_time_by_module": {
+          "all": [
+            "12.625"
+          ], 
+          "delta": "0.0", 
+          "delta_percent": "0.0000", 
+          "max": "12.625", 
+          "min": "12.625", 
+          "nortest_cvm": {}, 
+          "nortest_lillie": {}, 
+          "nortest_pearson": {}, 
+          "number": "1"
+        }
+      }
+    }, 
+    "9e4f2d963ccd037b": {
+      "output": {
+        "run_time_by_module": {
+          "all": [
+            "0.084"
+          ], 
+          "delta": "0.0", 
+          "delta_percent": "0.0000", 
+          "max": "0.084", 
+          "min": "0.084", 
+          "nortest_cvm": {}, 
+          "nortest_lillie": {}, 
+          "nortest_pearson": {}, 
+          "number": "1"
+        }
+      }
+    }
+  }, 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2014-08-14T21:26:39.528041", 
+      "cm_module_uid": "4df5b2509a4feabf", 
+      "cm_person_uoa": "0728a400aa1c86fe", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }, 
+    {
+      "cm_iso_datetime": "2014-08-18T10:37:32.253000", 
+      "cm_module_uid": "4df5b2509a4feabf", 
+      "cm_person_uoa": "0728a400aa1c86fe", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }
+  ], 
+  "number_of_explored_points": "1", 
+  "pipeline_module_uoa": "7bae354317a4151f", 
+  "points": [
+    {
+      "always_keep_this_point": "yes", 
+      "pipeline_input": {
+        "cm_action": "run_stat", 
+        "cm_run_module_uoa": "7bae354317a4151f", 
+        "state": {
+          "0003217cf4dbead5": {
+            "input": {
+              "save_in_existing_space": "", 
+              "save_in_existing_space_text": ""
+            }
+          }, 
+          "0de0a94cd4d9a971": {
+            "input": {}, 
+            "output": {
+              "pipeline_fail": "yes"
+            }
+          }, 
+          "1048eba38df5b240": {
+            "enable": "yes", 
+            "input": {
+              "additional_compiler_flags": "", 
+              "all_compiler_flags": {
+                "0245016d4416eb87": "", 
+                "04d1cad73c883850": "", 
+                "078b31e0c1480492": "", 
+                "08195efbc1dd466c": "", 
+                "0b49a8b4009a2db9": "", 
+                "0e541848c899585a": "", 
+                "0f9c6225547142a9": "", 
+                "1095142af9f13d36": "", 
+                "127272103f2a4379": "", 
+                "13b5469588d966a4": "", 
+                "14f71d6833c742df": "", 
+                "17ed16e4e6790fc5": "", 
+                "188774499ebe85e2": "", 
+                "1a214d20674ecbba": "", 
+                "1ac3fbcd481898ed": "", 
+                "1b4f3db90a35a561": "", 
+                "1c3286f494585b10": "", 
+                "1c9248dbac88ef5c": "", 
+                "1ce7deec5d945e99": "", 
+                "21889efd48838236": "", 
+                "21bb30971e84c36b": "", 
+                "246b08d6945a28b0": "", 
+                "24bc995e80ad8c81": "", 
+                "272473cee92944cf": "", 
+                "275c480a889face1": "", 
+                "279a13164d0fc1ed": "", 
+                "28919ebb74a3594e": "", 
+                "294dd7b3d6fdeb5c": "", 
+                "299545be7b07adce": "", 
+                "2a6d4f4a69f94f8b": "", 
+                "2b22e1b464ea08f1": "", 
+                "2bd0a4421d46bc8b": "", 
+                "2fc648ed19d490cb": "", 
+                "32e6330abe5f4a3e": "", 
+                "3469997c5de115c6": "", 
+                "35d07e4143b80e77": "", 
+                "3823176742d4f9e9": "", 
+                "3a35a54a728004b8": "", 
+                "3cbe4ef89bdd4bc9": "", 
+                "3d0ddfecc4352902": "", 
+                "3ef409a889084b70": "", 
+                "403389acdc7887e6": "", 
+                "40c0c4e5e8cd68cb": "", 
+                "412df32d46508452": "", 
+                "41316c39a3cd48f5": "", 
+                "418c244e13721c1a": "", 
+                "41fcadf32feae40d": "", 
+                "4230b42553993101": "", 
+                "425cb1976071ef04": "", 
+                "426aaed3e1248c93": "", 
+                "445c97eab3814623": "", 
+                "44a1b7763e45f296": "", 
+                "44a5b7856178f6e5": "", 
+                "44b03a2cb9f64442": "", 
+                "44f2814c06ca0bb1": "", 
+                "4577a570710cd60f": "", 
+                "45b4b3532c56849d": "", 
+                "45f89ff86352da9d": "", 
+                "468491b6b9c6a422": "", 
+                "4976e9344e9ab9e4": "", 
+                "49a491843f1ece9d": "", 
+                "49f2a7be4896b48d": "", 
+                "4af888436aa5be2e": "", 
+                "4cc17f44b4a4397a": "", 
+                "4d85cedca3447bd8": "", 
+                "4f16b63b3435c99f": "", 
+                "4fce520ccdc64de3": "", 
+                "4fe0b800bd28e1e7": "", 
+                "51e7b4e62984401c": "", 
+                "52114b718d86c627": "", 
+                "53925c54490b8eb8": "", 
+                "5432fa8aa8549249": "", 
+                "54a4dc5a76759c78": "", 
+                "5ae34845cc8ab084": "", 
+                "5b03d9c5779ed55a": "", 
+                "5b440e995576aaf7": "", 
+                "5b54774a9db21ecc": "", 
+                "5cb9781294c7ac6f": "", 
+                "5ce2ebaa3164c81b": "", 
+                "5f7e42bfa0d423f7": "", 
+                "5ff817ea0921a8ca": "", 
+                "62ea5cae3c41b698": "", 
+                "641b7aaf1ef09041": "", 
+                "64c09a5b26c2574e": "", 
+                "66c239064ff9a09e": "", 
+                "685e57aad8c24ac6": "", 
+                "699b4ffa9f80d2c2": "", 
+                "6abc609ba0dcf27d": "", 
+                "6b535bb98c8a0191": "", 
+                "6c8b41238b992533": "", 
+                "6eecd004a1fa6c69": "", 
+                "70bbeec1438d9ad1": "", 
+                "723325e44279fe9a": "", 
+                "73943643ac896444": "", 
+                "742fe9a66d759c34": "", 
+                "7434890f31e38fe3": "", 
+                "74683844b6ac8063": "", 
+                "763cd4a5f8b493f0": "", 
+                "768f0bc01f3e177a": "", 
+                "782917d17b3265e4": "", 
+                "78a45b385c0dc357": "", 
+                "7924150e6f464d82": "", 
+                "7b10b0cae76bac4a": "", 
+                "7c4092e754975bb6": "", 
+                "7c6536c2a07e46a3": "", 
+                "7cb9a5c384f8f644": "", 
+                "81cdbc04a1b9a2ac": "", 
+                "849e3b8e3d47f265": "", 
+                "868ba269e22945c1": "", 
+                "87bf4769b59d1556": "", 
+                "890f40bbb4552eec": "", 
+                "8a6a14aad7e9cdf2": "", 
+                "8f4127aa51662413": "", 
+                "9089cb01980a4cd9": "", 
+                "9106a48889640fe4": "", 
+                "938c5c59cfe841de": "", 
+                "940c0dec86d4ed7a": "", 
+                "94415297929216a3": "", 
+                "948dd75504edf8ba": "", 
+                "954a36ba66b047e0": "", 
+                "99ef4831aa64db28": "", 
+                "9ca4484cd9eee6f2": "", 
+                "9d4156988f9e91cf": "", 
+                "9d7648beaccb27a5": "", 
+                "9e68f0d90048ebb2": "", 
+                "a09d090702478faa": "", 
+                "a49a2bfc898d12a3": "", 
+                "a49aa44e4f03d082": "", 
+                "a4ab21fb8b2ae597": "", 
+                "a4ab4347ae5b7783": "", 
+                "a4d94ed45478f911": "", 
+                "a8a466db93679fb6": "", 
+                "aa18b8a0fd3a7ef6": "", 
+                "aac31e4da1a41129": "", 
+                "b3fbb9138314ffca": "", 
+                "b431a40401b9893f": "", 
+                "b464b31049419e51": "", 
+                "b502426662b429ba": "", 
+                "baf886881bc18abb": "", 
+                "base_flag": "-O3", 
+                "c1a4698925fb7c57": "", 
+                "c1c84098be705019": "", 
+                "c1f142ebafd7b005": "", 
+                "c27496d4538bfb27": "", 
+                "c2fb1449298e8578": "", 
+                "c47242546b08f4a0": "", 
+                "c63e602b4f4abde5": "", 
+                "c7ba64ef8becac9b": "", 
+                "c95243abbbc34ecf": "", 
+                "ca05e3938eb24286": "", 
+                "cb71a8e14e4e13a7": "", 
+                "cbce3745ee84fa78": "", 
+                "cbde485ba57ed39d": "", 
+                "cc5058d468e9c475": "", 
+                "ced264fc28f04ee2": "", 
+                "d520343c4a168f8a": "", 
+                "d5a93eaddc86c0e9": "", 
+                "d77c08d002c40b79": "", 
+                "d823509ff36c4696": "", 
+                "dab46c49d67f7ca3": "", 
+                "dc192fb404846a98": "", 
+                "dccdf8f9d419b9fe": "", 
+                "ddb4804f1d9ce9d2": "", 
+                "de2544841868c46c": "", 
+                "df745e2976551c7e": "", 
+                "e1875e91a49abaab": "", 
+                "e6e4644ba38b23bb": "", 
+                "e73f4310b474fba8": "", 
+                "e9b8850147e4c749": "", 
+                "ec42fa9afd50d63e": "", 
+                "ed017157184371b6": "", 
+                "f008e4cd795e03a2": "", 
+                "f430754f00beb5b6": "", 
+                "f4615b6a335f4fd1": "", 
+                "f482e8337d140d5a": "", 
+                "f4a1585d0afe2c4e": "", 
+                "f4e5f9969490df65": "", 
+                "f71742029e019eb7": "", 
+                "f8bb88750db3f253": "", 
+                "fb37539eda4a37ba": "", 
+                "fc935946ee9ec80f": "", 
+                "fcdacdb19483c89a": "", 
+                "fce884a6d094a42a": "", 
+                "fd7b4e4ce743c798": "", 
+                "ff5a1424b433dbbd": "", 
+                "openmp_flag": "-fopenmp"
+              }, 
+              "all_compiler_flags_order": [
+                "base_flag", 
+                "openmp_flag", 
+                "94415297929216a3", 
+                "418c244e13721c1a", 
+                "24bc995e80ad8c81", 
+                "fcdacdb19483c89a", 
+                "ff5a1424b433dbbd", 
+                "f71742029e019eb7", 
+                "ced264fc28f04ee2", 
+                "14f71d6833c742df", 
+                "fd7b4e4ce743c798", 
+                "445c97eab3814623", 
+                "a4ab4347ae5b7783", 
+                "938c5c59cfe841de", 
+                "868ba269e22945c1", 
+                "d823509ff36c4696", 
+                "d520343c4a168f8a", 
+                "1c3286f494585b10", 
+                "54a4dc5a76759c78", 
+                "17ed16e4e6790fc5", 
+                "7cb9a5c384f8f644", 
+                "2fc648ed19d490cb", 
+                "73943643ac896444", 
+                "dccdf8f9d419b9fe", 
+                "74683844b6ac8063", 
+                "294dd7b3d6fdeb5c", 
+                "f4a1585d0afe2c4e", 
+                "b464b31049419e51", 
+                "df745e2976551c7e", 
+                "66c239064ff9a09e", 
+                "4cc17f44b4a4397a", 
+                "45b4b3532c56849d", 
+                "32e6330abe5f4a3e", 
+                "99ef4831aa64db28", 
+                "f4615b6a335f4fd1", 
+                "44b03a2cb9f64442", 
+                "ed017157184371b6", 
+                "a4ab21fb8b2ae597", 
+                "c1a4698925fb7c57", 
+                "21889efd48838236", 
+                "4af888436aa5be2e", 
+                "3823176742d4f9e9", 
+                "3d0ddfecc4352902", 
+                "f8bb88750db3f253", 
+                "5b54774a9db21ecc", 
+                "275c480a889face1", 
+                "c95243abbbc34ecf", 
+                "940c0dec86d4ed7a", 
+                "f008e4cd795e03a2", 
+                "2a6d4f4a69f94f8b", 
+                "e6e4644ba38b23bb", 
+                "c63e602b4f4abde5", 
+                "fb37539eda4a37ba", 
+                "c47242546b08f4a0", 
+                "41316c39a3cd48f5", 
+                "45f89ff86352da9d", 
+                "f4e5f9969490df65", 
+                "0b49a8b4009a2db9", 
+                "44a5b7856178f6e5", 
+                "ddb4804f1d9ce9d2", 
+                "4f16b63b3435c99f", 
+                "a4d94ed45478f911", 
+                "04d1cad73c883850", 
+                "8a6a14aad7e9cdf2", 
+                "e1875e91a49abaab", 
+                "3469997c5de115c6", 
+                "8f4127aa51662413", 
+                "ec42fa9afd50d63e", 
+                "890f40bbb4552eec", 
+                "5b03d9c5779ed55a", 
+                "08195efbc1dd466c", 
+                "40c0c4e5e8cd68cb", 
+                "9ca4484cd9eee6f2", 
+                "ca05e3938eb24286", 
+                "0245016d4416eb87", 
+                "5ff817ea0921a8ca", 
+                "9d7648beaccb27a5", 
+                "62ea5cae3c41b698", 
+                "5cb9781294c7ac6f", 
+                "de2544841868c46c", 
+                "baf886881bc18abb", 
+                "4d85cedca3447bd8", 
+                "f430754f00beb5b6", 
+                "742fe9a66d759c34", 
+                "70bbeec1438d9ad1", 
+                "1b4f3db90a35a561", 
+                "7b10b0cae76bac4a", 
+                "685e57aad8c24ac6", 
+                "fce884a6d094a42a", 
+                "4fce520ccdc64de3", 
+                "6b535bb98c8a0191", 
+                "468491b6b9c6a422", 
+                "13b5469588d966a4", 
+                "3ef409a889084b70", 
+                "cbde485ba57ed39d", 
+                "7924150e6f464d82", 
+                "dab46c49d67f7ca3", 
+                "44a1b7763e45f296", 
+                "9089cb01980a4cd9", 
+                "1c9248dbac88ef5c", 
+                "6c8b41238b992533", 
+                "c1c84098be705019", 
+                "a8a466db93679fb6", 
+                "a09d090702478faa", 
+                "2bd0a4421d46bc8b", 
+                "52114b718d86c627", 
+                "53925c54490b8eb8", 
+                "fc935946ee9ec80f", 
+                "f482e8337d140d5a", 
+                "4976e9344e9ab9e4", 
+                "5b440e995576aaf7", 
+                "5ae34845cc8ab084", 
+                "c2fb1449298e8578", 
+                "849e3b8e3d47f265", 
+                "6abc609ba0dcf27d", 
+                "44f2814c06ca0bb1", 
+                "49a491843f1ece9d", 
+                "78a45b385c0dc357", 
+                "5ce2ebaa3164c81b", 
+                "782917d17b3265e4", 
+                "426aaed3e1248c93", 
+                "188774499ebe85e2", 
+                "81cdbc04a1b9a2ac", 
+                "078b31e0c1480492", 
+                "699b4ffa9f80d2c2", 
+                "2b22e1b464ea08f1", 
+                "4230b42553993101", 
+                "6eecd004a1fa6c69", 
+                "9d4156988f9e91cf", 
+                "dc192fb404846a98", 
+                "403389acdc7887e6", 
+                "0f9c6225547142a9", 
+                "7c6536c2a07e46a3", 
+                "272473cee92944cf", 
+                "1ac3fbcd481898ed", 
+                "d5a93eaddc86c0e9", 
+                "641b7aaf1ef09041", 
+                "9106a48889640fe4", 
+                "c1f142ebafd7b005", 
+                "e73f4310b474fba8", 
+                "768f0bc01f3e177a", 
+                "7434890f31e38fe3", 
+                "c27496d4538bfb27", 
+                "279a13164d0fc1ed", 
+                "a49a2bfc898d12a3", 
+                "3a35a54a728004b8", 
+                "1a214d20674ecbba", 
+                "954a36ba66b047e0", 
+                "9e68f0d90048ebb2", 
+                "64c09a5b26c2574e", 
+                "cc5058d468e9c475", 
+                "51e7b4e62984401c", 
+                "425cb1976071ef04", 
+                "35d07e4143b80e77", 
+                "a49aa44e4f03d082", 
+                "cbce3745ee84fa78", 
+                "4577a570710cd60f", 
+                "e9b8850147e4c749", 
+                "aac31e4da1a41129", 
+                "b431a40401b9893f", 
+                "c7ba64ef8becac9b", 
+                "763cd4a5f8b493f0", 
+                "948dd75504edf8ba", 
+                "b502426662b429ba", 
+                "21bb30971e84c36b", 
+                "1095142af9f13d36", 
+                "7c4092e754975bb6", 
+                "0e541848c899585a", 
+                "127272103f2a4379", 
+                "87bf4769b59d1556", 
+                "5f7e42bfa0d423f7", 
+                "1ce7deec5d945e99", 
+                "4fe0b800bd28e1e7", 
+                "d77c08d002c40b79", 
+                "cb71a8e14e4e13a7", 
+                "412df32d46508452", 
+                "5432fa8aa8549249", 
+                "b3fbb9138314ffca", 
+                "28919ebb74a3594e", 
+                "299545be7b07adce", 
+                "49f2a7be4896b48d", 
+                "41fcadf32feae40d", 
+                "246b08d6945a28b0", 
+                "3cbe4ef89bdd4bc9", 
+                "723325e44279fe9a", 
+                "aa18b8a0fd3a7ef6"
+              ], 
+              "opt_class_uid": "", 
+              "use_only_base_flag": "no", 
+              "use_openmp_flag": "no"
+            }, 
+            "output": {
+              "prepared_compiler_flags": ""
+            }
+          }, 
+          "1f0b7684a4e82b4d": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "output_correct": ""
+            }
+          }, 
+          "26fc4522ada736fd": {
+            "enable": "yes", 
+            "output": {
+              "all_frequencies_string": "2601000 2600000 2400000 2200000 2000000 1800000 1600000 1400000 1200000 1000000 800000", 
+              "memory_string": "8068 MB", 
+              "os_string": "Linux version 3.1.10-1.29-desktop (geeko@buildhost) (gcc version 4.6.2 (SUSE Linux) ) #1 SMP PREEMPT Fri May 31 20:10:04 UTC 2013 (2529847)", 
+              "processor_string": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz", 
+              "system_string": "Dell Inc. Latitude E6320"
+            }
+          }, 
+          "32a5da1354398809": {
+            "enable": "no"
+          }, 
+          "4014f7933ad34393": {
+            "enable": "no", 
+            "input": {
+              "vtune_code_uoa": "fe0049d8a302d8e8"
+            }
+          }, 
+          "497ab53d27dda776": {
+            "enable": "no", 
+            "input": {
+              "cjson_library": "95a1798af854eee8", 
+              "openme_library": "54bf1afeeb78148e", 
+              "openme_library_ctuning_plugin": "b99cd30049036bf1"
+            }
+          }, 
+          "4e76b29d5e5a550a": {
+            "enable": "no", 
+            "input": {
+              "frequency": "", 
+              "frequency_str": "", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "5344edbd71d39038": {
+            "enable": "no", 
+            "input": {
+              "support_output_to_file": "no"
+            }
+          }, 
+          "576542229300f6dd": {
+            "enable": "no", 
+            "input": {
+              "alchemist_plugin_code_uoa": "", 
+              "alchemist_subplugin_code_uoa": "", 
+              "mode": "record_function_names"
+            }
+          }, 
+          "5ae350247fa8bc2f": {
+            "enable": "yes", 
+            "input": {
+              "refresh_from_templates": "yes", 
+              "run_script": "clean", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_target_file_check": "yes"
+            }
+          }, 
+          "6e86c4e99b08aabe": {
+            "enable": "no", 
+            "input": {
+              "force_unroll_factor": "", 
+              "input_file": "", 
+              "mode": "record_transformations", 
+              "output_file": "", 
+              "universal_alchemist_plugin_code_uoa": "9e44eaca15331a01"
+            }
+          }, 
+          "75581c4a4e4072c8": {
+            "enable": "yes", 
+            "input": {
+              "calibrate": "no", 
+              "calibrate_max_iters": "12", 
+              "calibrate_time": "5", 
+              "openmp_number_of_threads": "", 
+              "run_vars": {
+                "CT_REPEAT_MAIN": "4000"
+              }, 
+              "web_run_cmd1": ""
+            }, 
+            "output": {
+              "benchmark_score": "", 
+              "exit_code": "", 
+              "global_execution_time_div_by_repeat": "", 
+              "number_of_kernel_repetitions": "", 
+              "run_time_by_module": ""
+            }
+          }, 
+          "84e67b7093c4a048": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {}
+          }, 
+          "9478e9ffb279a99b": {
+            "enable": "no", 
+            "input": {
+              "ctuning_compiler_code_uoa": "3285d9a46e5a04d7", 
+              "ctuning_compiler_plugins_code_uoa": "5b03050b0a6767a7", 
+              "milepost_compiler_code_uoa": "44aa94d1dd4d18fd", 
+              "milepost_compiler_extract_after_pass": "fre", 
+              "mode": ""
+            }
+          }, 
+          "9e4f2d963ccd037b": {
+            "enable": "yes", 
+            "input": {
+              "cm_dependencies": [], 
+              "compilation_type": "dynamic", 
+              "compilation_type_of_linked_libraries": "static", 
+              "program_build_properties": {}, 
+              "run_script": "build_dynamic_bin_c", 
+              "run_script_uoa": "9738ca3d2555f6eb"
+            }, 
+            "output": {
+              "exit_code": "", 
+              "run_time_by_module": "", 
+              "target_file_size": ""
+            }
+          }, 
+          "9f4d948a74b0397a": {
+            "input": {
+              "accelerator_compiler_code_uoa": "", 
+              "benchmark_execution_internal_id": "", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "03a91d01a54ef7f5", 
+              "ctuning_accelerator_compiler_uoa": "ac263305247d3953", 
+              "ctuning_compiler_uoa": "15a583ed9eb54b57", 
+              "ctuning_setup_uoa": "477eb8c4770e173b", 
+              "dataset_uoa": "c8848a1b1fb1775e", 
+              "host_os_uoa": "4258b5fe54828a50", 
+              "notes": "", 
+              "program_uoa": "1db78910464c9d05", 
+              "prune_program_by_class": "", 
+              "run_cmd_key": "default", 
+              "run_script": "build_dynamic_bin_c", 
+              "target_accelerator_processor_uoa": "", 
+              "target_os_uoa": "4258b5fe54828a50", 
+              "target_processor_uoa": "3b4f037241204c3e", 
+              "tuning_objective": "et", 
+              "tuning_repo_uoa": "f476d66140b8b3db", 
+              "user_friendly_system_name": ""
+            }
+          }, 
+          "a574174ac39d2f42": {
+            "enable": "yes", 
+            "output": {
+              "system_state": {
+                "properties": {
+                  "cpu_frequency": ""
+                }
+              }
+            }
+          }, 
+          "a899de0d432082ab": {
+            "enable": "no", 
+            "input": {
+              "parallelize": "no", 
+              "pluto_compiler_code_uoa": "4e64b5bad088b7bb", 
+              "tile": "no", 
+              "tile_factor": "32", 
+              "tile_factors_topology": "", 
+              "unroll": "no", 
+              "unroll_factor": "2"
+            }
+          }, 
+          "b2546b6ab4dc2376": {
+            "output": {
+              "run_time_kernel": ""
+            }
+          }, 
+          "cm_characteristics": {
+            "global_cpi": "", 
+            "global_instructions_retired": ""
+          }, 
+          "cm_save_json_to_file": "", 
+          "cm_save_output_json_to_file": "", 
+          "cm_show_json": "no", 
+          "cm_show_output_json": "no", 
+          "cm_stat_characteristics": {
+            "75581c4a4e4072c8": {
+              "output": {
+                "global_execution_time_div_by_repeat": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1"
+                }, 
+                "run_time_by_module": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1", 
+                  "nortest_cvm": {
+                    "p.value": ""
+                  }, 
+                  "nortest_lillie": {
+                    "p.value": ""
+                  }, 
+                  "nortest_pearson": {
+                    "p.value": ""
+                  }, 
+                  "number": "-1"
+                }
+              }
+            }, 
+            "9e4f2d963ccd037b": {
+              "output": {
+                "run_time_by_module": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1"
+                }
+              }
+            }
+          }, 
+          "e98ec4cff4040813": {
+            "enable": "no", 
+            "input": {
+              "instrumentation": "yes", 
+              "likwid_code_uoa": "04e0e7c414b97f30", 
+              "measure_event_set": "", 
+              "measure_performance_group": "", 
+              "processor_pinning": "0", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "f4af1629481564f9": {
+            "enable": "yes", 
+            "input": {}
+          }, 
+          "f53e1f0898493e87": {
+            "output": {
+              "global_dataset_name": "", 
+              "global_dataset_uid": "", 
+              "global_source_code_name": "", 
+              "global_source_code_uid": "", 
+              "program_uoa": ""
+            }
+          }, 
+          "keep_all_files": "no", 
+          "misc": {
+            "cm_iso_datetime_finished": "", 
+            "cm_iso_datetime_started": "", 
+            "cm_user_uid": "", 
+            "dissemination": {
+              "publications": [
+                "6f40bc99c4f7df58", 
+                "1943b3f46fabaee4", 
+                "983680d43b0b033d"
+              ]
+            }
+          }
+        }
+      }, 
+      "pipeline_output": {
+        "cm_return": 0, 
+        "fail": false, 
+        "state": {
+          "0003217cf4dbead5": {
+            "input": {
+              "save_in_existing_space": "", 
+              "save_in_existing_space_text": ""
+            }
+          }, 
+          "0de0a94cd4d9a971": {
+            "input": {}, 
+            "output": {
+              "pipeline_fail": "no"
+            }
+          }, 
+          "1048eba38df5b240": {
+            "enable": "yes", 
+            "input": {
+              "additional_compiler_flags": "", 
+              "all_compiler_flags": {
+                "0245016d4416eb87": "", 
+                "04d1cad73c883850": "", 
+                "078b31e0c1480492": "", 
+                "08195efbc1dd466c": "", 
+                "0b49a8b4009a2db9": "", 
+                "0e541848c899585a": "", 
+                "0f9c6225547142a9": "", 
+                "1095142af9f13d36": "", 
+                "127272103f2a4379": "", 
+                "13b5469588d966a4": "", 
+                "14f71d6833c742df": "", 
+                "17ed16e4e6790fc5": "", 
+                "188774499ebe85e2": "", 
+                "1a214d20674ecbba": "", 
+                "1ac3fbcd481898ed": "", 
+                "1b4f3db90a35a561": "", 
+                "1c3286f494585b10": "", 
+                "1c9248dbac88ef5c": "", 
+                "1ce7deec5d945e99": "", 
+                "21889efd48838236": "", 
+                "21bb30971e84c36b": "", 
+                "246b08d6945a28b0": "", 
+                "24bc995e80ad8c81": "", 
+                "272473cee92944cf": "", 
+                "275c480a889face1": "", 
+                "279a13164d0fc1ed": "", 
+                "28919ebb74a3594e": "", 
+                "294dd7b3d6fdeb5c": "", 
+                "299545be7b07adce": "", 
+                "2a6d4f4a69f94f8b": "", 
+                "2b22e1b464ea08f1": "", 
+                "2bd0a4421d46bc8b": "", 
+                "2fc648ed19d490cb": "", 
+                "32e6330abe5f4a3e": "", 
+                "3469997c5de115c6": "", 
+                "35d07e4143b80e77": "", 
+                "3823176742d4f9e9": "", 
+                "3a35a54a728004b8": "", 
+                "3cbe4ef89bdd4bc9": "", 
+                "3d0ddfecc4352902": "", 
+                "3ef409a889084b70": "", 
+                "403389acdc7887e6": "", 
+                "40c0c4e5e8cd68cb": "", 
+                "412df32d46508452": "", 
+                "41316c39a3cd48f5": "", 
+                "418c244e13721c1a": "", 
+                "41fcadf32feae40d": "", 
+                "4230b42553993101": "", 
+                "425cb1976071ef04": "", 
+                "426aaed3e1248c93": "", 
+                "445c97eab3814623": "", 
+                "44a1b7763e45f296": "", 
+                "44a5b7856178f6e5": "", 
+                "44b03a2cb9f64442": "", 
+                "44f2814c06ca0bb1": "", 
+                "4577a570710cd60f": "", 
+                "45b4b3532c56849d": "", 
+                "45f89ff86352da9d": "", 
+                "468491b6b9c6a422": "", 
+                "4976e9344e9ab9e4": "", 
+                "49a491843f1ece9d": "", 
+                "49f2a7be4896b48d": "", 
+                "4af888436aa5be2e": "", 
+                "4cc17f44b4a4397a": "", 
+                "4d85cedca3447bd8": "", 
+                "4f16b63b3435c99f": "", 
+                "4fce520ccdc64de3": "", 
+                "4fe0b800bd28e1e7": "", 
+                "51e7b4e62984401c": "", 
+                "52114b718d86c627": "", 
+                "53925c54490b8eb8": "", 
+                "5432fa8aa8549249": "", 
+                "54a4dc5a76759c78": "", 
+                "5ae34845cc8ab084": "", 
+                "5b03d9c5779ed55a": "", 
+                "5b440e995576aaf7": "", 
+                "5b54774a9db21ecc": "", 
+                "5cb9781294c7ac6f": "", 
+                "5ce2ebaa3164c81b": "", 
+                "5f7e42bfa0d423f7": "", 
+                "5ff817ea0921a8ca": "", 
+                "62ea5cae3c41b698": "", 
+                "641b7aaf1ef09041": "", 
+                "64c09a5b26c2574e": "", 
+                "66c239064ff9a09e": "", 
+                "685e57aad8c24ac6": "", 
+                "699b4ffa9f80d2c2": "", 
+                "6abc609ba0dcf27d": "", 
+                "6b535bb98c8a0191": "", 
+                "6c8b41238b992533": "", 
+                "6eecd004a1fa6c69": "", 
+                "70bbeec1438d9ad1": "", 
+                "723325e44279fe9a": "", 
+                "73943643ac896444": "", 
+                "742fe9a66d759c34": "", 
+                "7434890f31e38fe3": "", 
+                "74683844b6ac8063": "", 
+                "763cd4a5f8b493f0": "", 
+                "768f0bc01f3e177a": "", 
+                "782917d17b3265e4": "", 
+                "78a45b385c0dc357": "", 
+                "7924150e6f464d82": "", 
+                "7b10b0cae76bac4a": "", 
+                "7c4092e754975bb6": "", 
+                "7c6536c2a07e46a3": "", 
+                "7cb9a5c384f8f644": "", 
+                "81cdbc04a1b9a2ac": "", 
+                "849e3b8e3d47f265": "", 
+                "868ba269e22945c1": "", 
+                "87bf4769b59d1556": "", 
+                "890f40bbb4552eec": "", 
+                "8a6a14aad7e9cdf2": "", 
+                "8f4127aa51662413": "", 
+                "9089cb01980a4cd9": "", 
+                "9106a48889640fe4": "", 
+                "938c5c59cfe841de": "", 
+                "940c0dec86d4ed7a": "", 
+                "94415297929216a3": "", 
+                "948dd75504edf8ba": "", 
+                "954a36ba66b047e0": "", 
+                "99ef4831aa64db28": "", 
+                "9ca4484cd9eee6f2": "", 
+                "9d4156988f9e91cf": "", 
+                "9d7648beaccb27a5": "", 
+                "9e68f0d90048ebb2": "", 
+                "a09d090702478faa": "", 
+                "a49a2bfc898d12a3": "", 
+                "a49aa44e4f03d082": "", 
+                "a4ab21fb8b2ae597": "", 
+                "a4ab4347ae5b7783": "", 
+                "a4d94ed45478f911": "", 
+                "a8a466db93679fb6": "", 
+                "aa18b8a0fd3a7ef6": "", 
+                "aac31e4da1a41129": "", 
+                "b3fbb9138314ffca": "", 
+                "b431a40401b9893f": "", 
+                "b464b31049419e51": "", 
+                "b502426662b429ba": "", 
+                "baf886881bc18abb": "", 
+                "base_flag": "-O3", 
+                "c1a4698925fb7c57": "", 
+                "c1c84098be705019": "", 
+                "c1f142ebafd7b005": "", 
+                "c27496d4538bfb27": "", 
+                "c2fb1449298e8578": "", 
+                "c47242546b08f4a0": "", 
+                "c63e602b4f4abde5": "", 
+                "c7ba64ef8becac9b": "", 
+                "c95243abbbc34ecf": "", 
+                "ca05e3938eb24286": "", 
+                "cb71a8e14e4e13a7": "", 
+                "cbce3745ee84fa78": "", 
+                "cbde485ba57ed39d": "", 
+                "cc5058d468e9c475": "", 
+                "ced264fc28f04ee2": "", 
+                "d520343c4a168f8a": "", 
+                "d5a93eaddc86c0e9": "", 
+                "d77c08d002c40b79": "", 
+                "d823509ff36c4696": "", 
+                "dab46c49d67f7ca3": "", 
+                "dc192fb404846a98": "", 
+                "dccdf8f9d419b9fe": "", 
+                "ddb4804f1d9ce9d2": "", 
+                "de2544841868c46c": "", 
+                "df745e2976551c7e": "", 
+                "e1875e91a49abaab": "", 
+                "e6e4644ba38b23bb": "", 
+                "e73f4310b474fba8": "", 
+                "e9b8850147e4c749": "", 
+                "ec42fa9afd50d63e": "", 
+                "ed017157184371b6": "", 
+                "f008e4cd795e03a2": "", 
+                "f430754f00beb5b6": "", 
+                "f4615b6a335f4fd1": "", 
+                "f482e8337d140d5a": "", 
+                "f4a1585d0afe2c4e": "", 
+                "f4e5f9969490df65": "", 
+                "f71742029e019eb7": "", 
+                "f8bb88750db3f253": "", 
+                "fb37539eda4a37ba": "", 
+                "fc935946ee9ec80f": "", 
+                "fcdacdb19483c89a": "", 
+                "fce884a6d094a42a": "", 
+                "fd7b4e4ce743c798": "", 
+                "ff5a1424b433dbbd": "", 
+                "openmp_flag": ""
+              }, 
+              "all_compiler_flags_order": [
+                "base_flag", 
+                "openmp_flag", 
+                "94415297929216a3", 
+                "418c244e13721c1a", 
+                "24bc995e80ad8c81", 
+                "fcdacdb19483c89a", 
+                "ff5a1424b433dbbd", 
+                "f71742029e019eb7", 
+                "ced264fc28f04ee2", 
+                "14f71d6833c742df", 
+                "fd7b4e4ce743c798", 
+                "445c97eab3814623", 
+                "a4ab4347ae5b7783", 
+                "938c5c59cfe841de", 
+                "868ba269e22945c1", 
+                "d823509ff36c4696", 
+                "d520343c4a168f8a", 
+                "1c3286f494585b10", 
+                "54a4dc5a76759c78", 
+                "17ed16e4e6790fc5", 
+                "7cb9a5c384f8f644", 
+                "2fc648ed19d490cb", 
+                "73943643ac896444", 
+                "dccdf8f9d419b9fe", 
+                "74683844b6ac8063", 
+                "294dd7b3d6fdeb5c", 
+                "f4a1585d0afe2c4e", 
+                "b464b31049419e51", 
+                "df745e2976551c7e", 
+                "66c239064ff9a09e", 
+                "4cc17f44b4a4397a", 
+                "45b4b3532c56849d", 
+                "32e6330abe5f4a3e", 
+                "99ef4831aa64db28", 
+                "f4615b6a335f4fd1", 
+                "44b03a2cb9f64442", 
+                "ed017157184371b6", 
+                "a4ab21fb8b2ae597", 
+                "c1a4698925fb7c57", 
+                "21889efd48838236", 
+                "4af888436aa5be2e", 
+                "3823176742d4f9e9", 
+                "3d0ddfecc4352902", 
+                "f8bb88750db3f253", 
+                "5b54774a9db21ecc", 
+                "275c480a889face1", 
+                "c95243abbbc34ecf", 
+                "940c0dec86d4ed7a", 
+                "f008e4cd795e03a2", 
+                "2a6d4f4a69f94f8b", 
+                "e6e4644ba38b23bb", 
+                "c63e602b4f4abde5", 
+                "fb37539eda4a37ba", 
+                "c47242546b08f4a0", 
+                "41316c39a3cd48f5", 
+                "45f89ff86352da9d", 
+                "f4e5f9969490df65", 
+                "0b49a8b4009a2db9", 
+                "44a5b7856178f6e5", 
+                "ddb4804f1d9ce9d2", 
+                "4f16b63b3435c99f", 
+                "a4d94ed45478f911", 
+                "04d1cad73c883850", 
+                "8a6a14aad7e9cdf2", 
+                "e1875e91a49abaab", 
+                "3469997c5de115c6", 
+                "8f4127aa51662413", 
+                "ec42fa9afd50d63e", 
+                "890f40bbb4552eec", 
+                "5b03d9c5779ed55a", 
+                "08195efbc1dd466c", 
+                "40c0c4e5e8cd68cb", 
+                "9ca4484cd9eee6f2", 
+                "ca05e3938eb24286", 
+                "0245016d4416eb87", 
+                "5ff817ea0921a8ca", 
+                "9d7648beaccb27a5", 
+                "62ea5cae3c41b698", 
+                "5cb9781294c7ac6f", 
+                "de2544841868c46c", 
+                "baf886881bc18abb", 
+                "4d85cedca3447bd8", 
+                "f430754f00beb5b6", 
+                "742fe9a66d759c34", 
+                "70bbeec1438d9ad1", 
+                "1b4f3db90a35a561", 
+                "7b10b0cae76bac4a", 
+                "685e57aad8c24ac6", 
+                "fce884a6d094a42a", 
+                "4fce520ccdc64de3", 
+                "6b535bb98c8a0191", 
+                "468491b6b9c6a422", 
+                "13b5469588d966a4", 
+                "3ef409a889084b70", 
+                "cbde485ba57ed39d", 
+                "7924150e6f464d82", 
+                "dab46c49d67f7ca3", 
+                "44a1b7763e45f296", 
+                "9089cb01980a4cd9", 
+                "1c9248dbac88ef5c", 
+                "6c8b41238b992533", 
+                "c1c84098be705019", 
+                "a8a466db93679fb6", 
+                "a09d090702478faa", 
+                "2bd0a4421d46bc8b", 
+                "52114b718d86c627", 
+                "53925c54490b8eb8", 
+                "fc935946ee9ec80f", 
+                "f482e8337d140d5a", 
+                "4976e9344e9ab9e4", 
+                "5b440e995576aaf7", 
+                "5ae34845cc8ab084", 
+                "c2fb1449298e8578", 
+                "849e3b8e3d47f265", 
+                "6abc609ba0dcf27d", 
+                "44f2814c06ca0bb1", 
+                "49a491843f1ece9d", 
+                "78a45b385c0dc357", 
+                "5ce2ebaa3164c81b", 
+                "782917d17b3265e4", 
+                "426aaed3e1248c93", 
+                "188774499ebe85e2", 
+                "81cdbc04a1b9a2ac", 
+                "078b31e0c1480492", 
+                "699b4ffa9f80d2c2", 
+                "2b22e1b464ea08f1", 
+                "4230b42553993101", 
+                "6eecd004a1fa6c69", 
+                "9d4156988f9e91cf", 
+                "dc192fb404846a98", 
+                "403389acdc7887e6", 
+                "0f9c6225547142a9", 
+                "7c6536c2a07e46a3", 
+                "272473cee92944cf", 
+                "1ac3fbcd481898ed", 
+                "d5a93eaddc86c0e9", 
+                "641b7aaf1ef09041", 
+                "9106a48889640fe4", 
+                "c1f142ebafd7b005", 
+                "e73f4310b474fba8", 
+                "768f0bc01f3e177a", 
+                "7434890f31e38fe3", 
+                "c27496d4538bfb27", 
+                "279a13164d0fc1ed", 
+                "a49a2bfc898d12a3", 
+                "3a35a54a728004b8", 
+                "1a214d20674ecbba", 
+                "954a36ba66b047e0", 
+                "9e68f0d90048ebb2", 
+                "64c09a5b26c2574e", 
+                "cc5058d468e9c475", 
+                "51e7b4e62984401c", 
+                "425cb1976071ef04", 
+                "35d07e4143b80e77", 
+                "a49aa44e4f03d082", 
+                "cbce3745ee84fa78", 
+                "4577a570710cd60f", 
+                "e9b8850147e4c749", 
+                "aac31e4da1a41129", 
+                "b431a40401b9893f", 
+                "c7ba64ef8becac9b", 
+                "763cd4a5f8b493f0", 
+                "948dd75504edf8ba", 
+                "b502426662b429ba", 
+                "21bb30971e84c36b", 
+                "1095142af9f13d36", 
+                "7c4092e754975bb6", 
+                "0e541848c899585a", 
+                "127272103f2a4379", 
+                "87bf4769b59d1556", 
+                "5f7e42bfa0d423f7", 
+                "1ce7deec5d945e99", 
+                "4fe0b800bd28e1e7", 
+                "d77c08d002c40b79", 
+                "cb71a8e14e4e13a7", 
+                "412df32d46508452", 
+                "5432fa8aa8549249", 
+                "b3fbb9138314ffca", 
+                "28919ebb74a3594e", 
+                "299545be7b07adce", 
+                "49f2a7be4896b48d", 
+                "41fcadf32feae40d", 
+                "246b08d6945a28b0", 
+                "3cbe4ef89bdd4bc9", 
+                "723325e44279fe9a", 
+                "aa18b8a0fd3a7ef6"
+              ], 
+              "opt_class_uid": "", 
+              "use_only_base_flag": "no", 
+              "use_openmp_flag": "no"
+            }, 
+            "output": {
+              "all_flags_order": [
+                "base_flag", 
+                "openmp_flag", 
+                "94415297929216a3", 
+                "418c244e13721c1a", 
+                "24bc995e80ad8c81", 
+                "fcdacdb19483c89a", 
+                "ff5a1424b433dbbd", 
+                "f71742029e019eb7", 
+                "ced264fc28f04ee2", 
+                "14f71d6833c742df", 
+                "fd7b4e4ce743c798", 
+                "445c97eab3814623", 
+                "a4ab4347ae5b7783", 
+                "938c5c59cfe841de", 
+                "868ba269e22945c1", 
+                "d823509ff36c4696", 
+                "d520343c4a168f8a", 
+                "1c3286f494585b10", 
+                "54a4dc5a76759c78", 
+                "17ed16e4e6790fc5", 
+                "7cb9a5c384f8f644", 
+                "2fc648ed19d490cb", 
+                "73943643ac896444", 
+                "dccdf8f9d419b9fe", 
+                "74683844b6ac8063", 
+                "294dd7b3d6fdeb5c", 
+                "f4a1585d0afe2c4e", 
+                "b464b31049419e51", 
+                "df745e2976551c7e", 
+                "66c239064ff9a09e", 
+                "4cc17f44b4a4397a", 
+                "45b4b3532c56849d", 
+                "32e6330abe5f4a3e", 
+                "99ef4831aa64db28", 
+                "f4615b6a335f4fd1", 
+                "44b03a2cb9f64442", 
+                "ed017157184371b6", 
+                "a4ab21fb8b2ae597", 
+                "c1a4698925fb7c57", 
+                "21889efd48838236", 
+                "4af888436aa5be2e", 
+                "3823176742d4f9e9", 
+                "3d0ddfecc4352902", 
+                "f8bb88750db3f253", 
+                "5b54774a9db21ecc", 
+                "275c480a889face1", 
+                "c95243abbbc34ecf", 
+                "940c0dec86d4ed7a", 
+                "f008e4cd795e03a2", 
+                "2a6d4f4a69f94f8b", 
+                "e6e4644ba38b23bb", 
+                "c63e602b4f4abde5", 
+                "fb37539eda4a37ba", 
+                "c47242546b08f4a0", 
+                "41316c39a3cd48f5", 
+                "45f89ff86352da9d", 
+                "f4e5f9969490df65", 
+                "0b49a8b4009a2db9", 
+                "44a5b7856178f6e5", 
+                "ddb4804f1d9ce9d2", 
+                "4f16b63b3435c99f", 
+                "a4d94ed45478f911", 
+                "04d1cad73c883850", 
+                "8a6a14aad7e9cdf2", 
+                "e1875e91a49abaab", 
+                "3469997c5de115c6", 
+                "8f4127aa51662413", 
+                "ec42fa9afd50d63e", 
+                "890f40bbb4552eec", 
+                "5b03d9c5779ed55a", 
+                "08195efbc1dd466c", 
+                "40c0c4e5e8cd68cb", 
+                "9ca4484cd9eee6f2", 
+                "ca05e3938eb24286", 
+                "0245016d4416eb87", 
+                "5ff817ea0921a8ca", 
+                "9d7648beaccb27a5", 
+                "62ea5cae3c41b698", 
+                "5cb9781294c7ac6f", 
+                "de2544841868c46c", 
+                "baf886881bc18abb", 
+                "4d85cedca3447bd8", 
+                "f430754f00beb5b6", 
+                "742fe9a66d759c34", 
+                "70bbeec1438d9ad1", 
+                "1b4f3db90a35a561", 
+                "7b10b0cae76bac4a", 
+                "685e57aad8c24ac6", 
+                "fce884a6d094a42a", 
+                "4fce520ccdc64de3", 
+                "6b535bb98c8a0191", 
+                "468491b6b9c6a422", 
+                "13b5469588d966a4", 
+                "3ef409a889084b70", 
+                "cbde485ba57ed39d", 
+                "7924150e6f464d82", 
+                "dab46c49d67f7ca3", 
+                "44a1b7763e45f296", 
+                "9089cb01980a4cd9", 
+                "1c9248dbac88ef5c", 
+                "6c8b41238b992533", 
+                "c1c84098be705019", 
+                "a8a466db93679fb6", 
+                "a09d090702478faa", 
+                "2bd0a4421d46bc8b", 
+                "52114b718d86c627", 
+                "53925c54490b8eb8", 
+                "fc935946ee9ec80f", 
+                "f482e8337d140d5a", 
+                "4976e9344e9ab9e4", 
+                "5b440e995576aaf7", 
+                "5ae34845cc8ab084", 
+                "c2fb1449298e8578", 
+                "849e3b8e3d47f265", 
+                "6abc609ba0dcf27d", 
+                "44f2814c06ca0bb1", 
+                "49a491843f1ece9d", 
+                "78a45b385c0dc357", 
+                "5ce2ebaa3164c81b", 
+                "782917d17b3265e4", 
+                "426aaed3e1248c93", 
+                "188774499ebe85e2", 
+                "81cdbc04a1b9a2ac", 
+                "078b31e0c1480492", 
+                "699b4ffa9f80d2c2", 
+                "2b22e1b464ea08f1", 
+                "4230b42553993101", 
+                "6eecd004a1fa6c69", 
+                "9d4156988f9e91cf", 
+                "dc192fb404846a98", 
+                "403389acdc7887e6", 
+                "0f9c6225547142a9", 
+                "7c6536c2a07e46a3", 
+                "272473cee92944cf", 
+                "1ac3fbcd481898ed", 
+                "d5a93eaddc86c0e9", 
+                "641b7aaf1ef09041", 
+                "9106a48889640fe4", 
+                "c1f142ebafd7b005", 
+                "e73f4310b474fba8", 
+                "768f0bc01f3e177a", 
+                "7434890f31e38fe3", 
+                "c27496d4538bfb27", 
+                "279a13164d0fc1ed", 
+                "a49a2bfc898d12a3", 
+                "3a35a54a728004b8", 
+                "1a214d20674ecbba", 
+                "954a36ba66b047e0", 
+                "9e68f0d90048ebb2", 
+                "64c09a5b26c2574e", 
+                "cc5058d468e9c475", 
+                "51e7b4e62984401c", 
+                "425cb1976071ef04", 
+                "35d07e4143b80e77", 
+                "a49aa44e4f03d082", 
+                "cbce3745ee84fa78", 
+                "4577a570710cd60f", 
+                "e9b8850147e4c749", 
+                "aac31e4da1a41129", 
+                "b431a40401b9893f", 
+                "c7ba64ef8becac9b", 
+                "763cd4a5f8b493f0", 
+                "948dd75504edf8ba", 
+                "b502426662b429ba", 
+                "21bb30971e84c36b", 
+                "1095142af9f13d36", 
+                "7c4092e754975bb6", 
+                "0e541848c899585a", 
+                "127272103f2a4379", 
+                "87bf4769b59d1556", 
+                "5f7e42bfa0d423f7", 
+                "1ce7deec5d945e99", 
+                "4fe0b800bd28e1e7", 
+                "d77c08d002c40b79", 
+                "cb71a8e14e4e13a7", 
+                "412df32d46508452", 
+                "5432fa8aa8549249", 
+                "b3fbb9138314ffca", 
+                "28919ebb74a3594e", 
+                "299545be7b07adce", 
+                "49f2a7be4896b48d", 
+                "41fcadf32feae40d", 
+                "246b08d6945a28b0", 
+                "3cbe4ef89bdd4bc9", 
+                "723325e44279fe9a", 
+                "aa18b8a0fd3a7ef6"
+              ], 
+              "prepared_compiler_flags": "-O3"
+            }
+          }, 
+          "1f0b7684a4e82b4d": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "output_correct": "0"
+            }
+          }, 
+          "26fc4522ada736fd": {
+            "enable": "yes", 
+            "output": {
+              "all_frequencies_string": "2601000 2600000 2400000 2200000 2000000 1800000 1600000 1400000 1200000 1000000 800000", 
+              "memory_string": "8068 MB", 
+              "os_string": "Linux version 3.1.10-1.29-desktop (geeko@buildhost) (gcc version 4.6.2 (SUSE Linux) ) #1 SMP PREEMPT Fri May 31 20:10:04 UTC 2013 (2529847)", 
+              "processor_string": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz", 
+              "system_string": "Dell Inc. Latitude E6320"
+            }
+          }, 
+          "32a5da1354398809": {
+            "enable": "no"
+          }, 
+          "4014f7933ad34393": {
+            "enable": "no", 
+            "input": {
+              "vtune_code_uoa": "fe0049d8a302d8e8"
+            }
+          }, 
+          "497ab53d27dda776": {
+            "enable": "no", 
+            "input": {
+              "cjson_library": "95a1798af854eee8", 
+              "openme_library": "54bf1afeeb78148e", 
+              "openme_library_ctuning_plugin": "b99cd30049036bf1"
+            }
+          }, 
+          "4e76b29d5e5a550a": {
+            "enable": "no", 
+            "input": {
+              "frequency": "", 
+              "frequency_str": "", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "5344edbd71d39038": {
+            "enable": "no", 
+            "input": {
+              "support_output_to_file": "no"
+            }
+          }, 
+          "576542229300f6dd": {
+            "enable": "no", 
+            "input": {
+              "alchemist_plugin_code_uoa": "", 
+              "alchemist_subplugin_code_uoa": "", 
+              "mode": "record_function_names"
+            }
+          }, 
+          "5ae350247fa8bc2f": {
+            "enable": "yes", 
+            "input": {
+              "refresh_from_templates": "yes", 
+              "run_script": "clean", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_target_file_check": "yes"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 0, 
+              "run_cmd": "/home/fursin/fggwork/cm/cm-1.0/repos/default/.cmr/os.script/build-generic/cm_clean_universal.sh", 
+              "run_output_files": [
+                "a.out"
+              ], 
+              "run_time_by_module": "0.012", 
+              "target_file": "a.out", 
+              "work_dir": "/home/fursin/fggwork/cm/cm-repos/ctuning-experiments/.cmr/code.source/benchmark-cbench-bw-filter-simplified-less"
+            }
+          }, 
+          "6e86c4e99b08aabe": {
+            "enable": "no", 
+            "input": {
+              "force_unroll_factor": "", 
+              "input_file": "", 
+              "mode": "record_transformations", 
+              "output_file": "", 
+              "universal_alchemist_plugin_code_uoa": "9e44eaca15331a01"
+            }
+          }, 
+          "75581c4a4e4072c8": {
+            "enable": "yes", 
+            "input": {
+              "calibrate": "no", 
+              "calibrate_max_iters": "12", 
+              "calibrate_time": "5", 
+              "openmp_number_of_threads": "", 
+              "run_target_os_uoa": "4258b5fe54828a50", 
+              "run_vars": {
+                "CT_REPEAT_MAIN": "4000"
+              }, 
+              "web_run_cmd1": ""
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 0, 
+              "global_execution_time_div_by_repeat": "0.00315625", 
+              "number_of_kernel_repetitions": "4000", 
+              "run_cmd": " ./a.out /home/fursin/fggwork/cm/cm-repos/ctuning/.cmr/dataset/image-raw-bin-fgg-office-day-gray/data.bin 1>tmp-output1.tmp 2>tmp-output2.tmp", 
+              "run_output_files": "yes", 
+              "run_time_by_module": "12.625", 
+              "work_dir": "/home/fursin/fggwork/cm/cm-repos/ctuning-experiments/.cmr/code.source/benchmark-cbench-bw-filter-simplified-less"
+            }
+          }, 
+          "84e67b7093c4a048": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "md5sum": "51cf4c8aeb5495ece1eb41f43d00356b"
+            }
+          }, 
+          "9478e9ffb279a99b": {
+            "enable": "no", 
+            "input": {
+              "ctuning_compiler_code_uoa": "3285d9a46e5a04d7", 
+              "ctuning_compiler_plugins_code_uoa": "5b03050b0a6767a7", 
+              "milepost_compiler_code_uoa": "44aa94d1dd4d18fd", 
+              "milepost_compiler_extract_after_pass": "fre", 
+              "mode": ""
+            }
+          }, 
+          "9e4f2d963ccd037b": {
+            "enable": "yes", 
+            "input": {
+              "cm_dependencies": [], 
+              "compilation_type": "dynamic", 
+              "compilation_type_of_linked_libraries": "static", 
+              "program_build_properties": {}, 
+              "run_script": "build_dynamic_bin_c", 
+              "run_script_uoa": "9738ca3d2555f6eb"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 0, 
+              "run_cmd": "/home/fursin/fggwork/cm/cm-1.0/repos/default/.cmr/os.script/build-generic/cm_build_dynamic_bin_c.sh 1>tmp-build-output1.tmp 2>tmp-build-output2.tmp", 
+              "run_output_files": [
+                "a.out"
+              ], 
+              "run_time_by_module": "0.084", 
+              "target_file": "a.out", 
+              "target_file_size": "16034", 
+              "work_dir": "/home/fursin/fggwork/cm/cm-repos/ctuning-experiments/.cmr/code.source/benchmark-cbench-bw-filter-simplified-less"
+            }
+          }, 
+          "9f4d948a74b0397a": {
+            "input": {
+              "accelerator_compiler_code_uoa": "", 
+              "benchmark_execution_internal_id": "", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "03a91d01a54ef7f5", 
+              "ctuning_accelerator_compiler_uoa": "ac263305247d3953", 
+              "ctuning_compiler_uoa": "15a583ed9eb54b57", 
+              "ctuning_setup_uoa": "477eb8c4770e173b", 
+              "dataset_uoa": "c8848a1b1fb1775e", 
+              "host_os_uoa": "4258b5fe54828a50", 
+              "notes": "", 
+              "program_uoa": "1db78910464c9d05", 
+              "prune_program_by_class": "", 
+              "run_cmd_key": "default", 
+              "run_script": "build_dynamic_bin_c", 
+              "target_accelerator_processor_uoa": "", 
+              "target_os_uoa": "4258b5fe54828a50", 
+              "target_processor_uoa": "3b4f037241204c3e", 
+              "tuning_objective": "et", 
+              "tuning_repo_uoa": "f476d66140b8b3db", 
+              "user_friendly_system_name": ""
+            }
+          }, 
+          "a574174ac39d2f42": {
+            "enable": "yes", 
+            "output": {
+              "cm_return": 0, 
+              "system_state": {
+                "properties": {
+                  "cpu_frequency": "1800000", 
+                  "cpu_frequency_all": [
+                    "2601000", 
+                    "2600000", 
+                    "2400000", 
+                    "2200000", 
+                    "2000000", 
+                    "1800000", 
+                    "1600000", 
+                    "1400000", 
+                    "1200000", 
+                    "1000000", 
+                    "800000"
+                  ], 
+                  "unix": {
+                    "cpu_state": {
+                      "": "", 
+                      "address sizes": "36 bits physical, 48 bits virtual", 
+                      "apicid": "3", 
+                      "bogomips": "5187.55", 
+                      "cache size": "3072 KB", 
+                      "cache_alignment": "64", 
+                      "clflush size": "64", 
+                      "core id": "1", 
+                      "cpu MHz": "800.000", 
+                      "cpu cores": "2", 
+                      "cpu family": "6", 
+                      "cpuid level": "13", 
+                      "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 sse4_2 x2apic popcnt aes xsave avx lahf_lm ida arat epb xsaveopt pln pts dts tpr_shadow vnmi flexpriority ept vpid", 
+                      "fpu": "yes", 
+                      "fpu_exception": "yes", 
+                      "initial apicid": "3", 
+                      "model": "42", 
+                      "model name": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz", 
+                      "physical id": "0", 
+                      "power management": "", 
+                      "processor": "3", 
+                      "siblings": "4", 
+                      "stepping": "7", 
+                      "vendor_id": "GenuineIntel", 
+                      "wp": "yes"
+                    }
+                  }
+                }
+              }
+            }
+          }, 
+          "a899de0d432082ab": {
+            "enable": "no", 
+            "input": {
+              "parallelize": "no", 
+              "pluto_compiler_code_uoa": "4e64b5bad088b7bb", 
+              "tile": "no", 
+              "tile_factor": "32", 
+              "tile_factors_topology": "", 
+              "unroll": "no", 
+              "unroll_factor": "2"
+            }
+          }, 
+          "b2546b6ab4dc2376": {
+            "output": {
+              "run_time_kernel": ""
+            }
+          }, 
+          "cm_characteristics": {
+            "global_build_time_max": "0.189", 
+            "global_build_time_min": "0.084", 
+            "global_code_md5sum": "51cf4c8aeb5495ece1eb41f43d00356b", 
+            "global_code_size": "16034", 
+            "global_cpi": "", 
+            "global_instructions_retired": "", 
+            "global_run_kernel_time_max": "0.00315925", 
+            "global_run_kernel_time_min": "0.00315625", 
+            "kernel_repeat": "4000"
+          }, 
+          "cm_save_json_to_file": "", 
+          "cm_save_output_json_to_file": "", 
+          "cm_show_json": "no", 
+          "cm_show_output_json": "no", 
+          "cm_stat_characteristics": {
+            "75581c4a4e4072c8": {
+              "output": {
+                "global_execution_time_div_by_repeat": {
+                  "all": [
+                    "0.00315925", 
+                    "0.00315625"
+                  ], 
+                  "delta": "3e-06", 
+                  "delta_percent": "0.0010", 
+                  "max": "0.00315925", 
+                  "min": "0.00315625", 
+                  "nortest_cvm": {}, 
+                  "nortest_lillie": {}, 
+                  "nortest_pearson": {}, 
+                  "number": "2"
+                }, 
+                "run_time_by_module": {
+                  "all": [
+                    "12.637", 
+                    "12.625"
+                  ], 
+                  "delta": "0.012", 
+                  "delta_percent": "0.0010", 
+                  "max": "12.637", 
+                  "min": "12.625", 
+                  "nortest_cvm": {
+                    "p.value": ""
+                  }, 
+                  "nortest_lillie": {
+                    "p.value": ""
+                  }, 
+                  "nortest_pearson": {
+                    "p.value": ""
+                  }, 
+                  "number": "2"
+                }
+              }
+            }, 
+            "9e4f2d963ccd037b": {
+              "output": {
+                "run_time_by_module": {
+                  "all": [
+                    "0.189", 
+                    "0.084"
+                  ], 
+                  "delta": "0.105", 
+                  "delta_percent": "1.2500", 
+                  "max": "0.189", 
+                  "min": "0.084", 
+                  "nortest_cvm": {}, 
+                  "nortest_lillie": {}, 
+                  "nortest_pearson": {}, 
+                  "number": "2"
+                }
+              }
+            }
+          }, 
+          "e98ec4cff4040813": {
+            "enable": "no", 
+            "input": {
+              "instrumentation": "yes", 
+              "likwid_code_uoa": "04e0e7c414b97f30", 
+              "measure_event_set": "", 
+              "measure_performance_group": "", 
+              "processor_pinning": "0", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "f4af1629481564f9": {
+            "enable": "yes", 
+            "input": {
+              "os_uoa": "4258b5fe54828a50"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "run_time": {
+                "binary_name": "./a.out", 
+                "dataset_files": [
+                  "data.bin"
+                ], 
+                "original_run_input_files": [], 
+                "run_cmd_main": "/home/fursin/fggwork/cm/cm-repos/ctuning/.cmr/dataset/image-raw-bin-fgg-office-day-gray/data.bin", 
+                "run_cmd_out1": "tmp-output1.tmp", 
+                "run_cmd_out2": "tmp-output2.tmp", 
+                "run_correctness_output_files": [
+                  "tmp-output1.tmp", 
+                  "tmp-output2.tmp"
+                ], 
+                "run_input_files": [
+                  "/home/fursin/fggwork/cm/cm-repos/ctuning/.cmr/dataset/image-raw-bin-fgg-office-day-gray/data.bin"
+                ], 
+                "run_output_files": []
+              }
+            }
+          }, 
+          "f53e1f0898493e87": {
+            "input": {
+              "build_target_os_uoa": "4258b5fe54828a50", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "03a91d01a54ef7f5", 
+              "ctuning_accelerator_compiler_uoa": "ac263305247d3953", 
+              "ctuning_compiler_uoa": "15a583ed9eb54b57", 
+              "dataset_uoa": "c8848a1b1fb1775e", 
+              "keep_all_files": "no", 
+              "run_cmd_key": "default", 
+              "run_host_os_uoa": "4258b5fe54828a50", 
+              "run_target_os_uoa": "4258b5fe54828a50", 
+              "run_target_processor_uoa": "3b4f037241204c3e", 
+              "work_dir_data_uoa": "1db78910464c9d05", 
+              "work_dir_module_uoa": "45741e3fbcf4024b", 
+              "work_dir_repo_uoa": "f476d66140b8b3db"
+            }, 
+            "output": {
+              "global_compiler_desc_name": "GCC 4.4.x", 
+              "global_compiler_package_name": "GCC 4.4.4", 
+              "global_dataset_name": "image-raw-bin-fgg-office-day-gray", 
+              "global_dataset_uid": "c8848a1b1fb1775e", 
+              "global_source_code_name": "cBench: bw filter codelet 2 simplified less (copy)", 
+              "global_source_code_uid": "1db78910464c9d05"
+            }
+          }, 
+          "keep_all_files": "no", 
+          "misc": {
+            "cm_iso_datetime_finished": "2014-08-14T21:26:39.472817", 
+            "cm_iso_datetime_started": "2014-08-14T21:26:19.052204", 
+            "cm_user_uid": "0728a400aa1c86fe", 
+            "dissemination": {
+              "publications": [
+                "6f40bc99c4f7df58", 
+                "1943b3f46fabaee4", 
+                "983680d43b0b033d"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ], 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.2015.beta"
+  }, 
+  "scenario_module_uoa": "4df5b2509a4feabf", 
+  "summary_point": {
+    "compilation_type": "dynamic", 
+    "compiler_package_uoa": "03a91d01a54ef7f5", 
+    "ctuning_compiler_uoa": "15a583ed9eb54b57", 
+    "dataset_uoa": "c8848a1b1fb1775e", 
+    "host_os_uoa": "4258b5fe54828a50", 
+    "notes": "", 
+    "processor_string": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz", 
+    "program_uoa": "1db78910464c9d05", 
+    "run_cmd_key": "default", 
+    "target_os_uoa": "4258b5fe54828a50", 
+    "target_processor_uoa": "3b4f037241204c3e", 
+    "tuning_objective": "et"
+  }, 
+  "summary_point_relaxed": {
+    "all_frequencies_string": "2601000 2600000 2400000 2200000 2000000 1800000 1600000 1400000 1200000 1000000 800000", 
+    "compilation_type": "dynamic", 
+    "compiler_package_uoa": "03a91d01a54ef7f5", 
+    "ctuning_compiler_uoa": "15a583ed9eb54b57", 
+    "dataset_uoa": "c8848a1b1fb1775e", 
+    "host_os_uoa": "4258b5fe54828a50", 
+    "memory_string": "8068 MB", 
+    "notes": "", 
+    "os_string": "Linux version 3.1.10-1.29-desktop (geeko@buildhost) (gcc version 4.6.2 (SUSE Linux) ) #1 SMP PREEMPT Fri May 31 20:10:04 UTC 2013 (2529847)", 
+    "processor_string": "Intel(R) Core(TM) i5-2540M CPU @ 2.60GHz", 
+    "program_uoa": "1db78910464c9d05", 
+    "run_cmd_key": "default", 
+    "system_string": "Dell Inc. Latitude E6320", 
+    "target_os_uoa": "4258b5fe54828a50", 
+    "target_processor_uoa": "3b4f037241204c3e", 
+    "tuning_objective": "et", 
+    "user_friendly_system_name": ""
+  }
+}

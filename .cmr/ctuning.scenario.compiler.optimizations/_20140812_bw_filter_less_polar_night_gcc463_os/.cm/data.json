@@ -1,0 +1,1701 @@
+{
+  "cm_access_control": {
+    "comments_groups": "registered", 
+    "read_groups": "all", 
+    "write_groups": "owner"
+  }, 
+  "cm_display_as_alias": "_20140812_bw_filter_less_polar_night_gcc463_os", 
+  "cm_stat_characteristics": {
+    "75581c4a4e4072c8": {
+      "output": {
+        "global_execution_time_div_by_repeat": {
+          "all": [
+            "0.03779"
+          ], 
+          "delta": "0.0", 
+          "delta_percent": "0.0000", 
+          "max": "0.03779", 
+          "min": "0.03779", 
+          "nortest_cvm": {}, 
+          "nortest_lillie": {}, 
+          "nortest_pearson": {}, 
+          "number": "1"
+        }, 
+        "run_time_by_module": {
+          "all": [
+            "15.116"
+          ], 
+          "delta": "0.0", 
+          "delta_percent": "0.0000", 
+          "max": "15.116", 
+          "min": "15.116", 
+          "nortest_cvm": {}, 
+          "nortest_lillie": {}, 
+          "nortest_pearson": {}, 
+          "number": "1"
+        }
+      }
+    }, 
+    "9e4f2d963ccd037b": {
+      "output": {
+        "run_time_by_module": {
+          "all": [
+            "0.721"
+          ], 
+          "delta": "0.0", 
+          "delta_percent": "0.0000", 
+          "max": "0.721", 
+          "min": "0.721", 
+          "nortest_cvm": {}, 
+          "nortest_lillie": {}, 
+          "nortest_pearson": {}, 
+          "number": "1"
+        }
+      }
+    }
+  }, 
+  "cm_updated": [
+    {
+      "cm_iso_datetime": "2014-08-18T10:26:12.820000", 
+      "cm_module_uid": "4df5b2509a4feabf", 
+      "cm_person_uoa": "0728a400aa1c86fe", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }, 
+    {
+      "cm_iso_datetime": "2014-08-18T10:32:01.462000", 
+      "cm_module_uid": "4df5b2509a4feabf", 
+      "cm_person_uoa": "0728a400aa1c86fe", 
+      "cm_user_uoa": "0728a400aa1c86fe"
+    }
+  ], 
+  "number_of_explored_points": "1", 
+  "pipeline_module_uoa": "7bae354317a4151f", 
+  "points": [
+    {
+      "always_keep_this_point": "yes", 
+      "pipeline_input": {
+        "cm_action": "run_stat", 
+        "cm_run_module_uoa": "7bae354317a4151f", 
+        "state": {
+          "0003217cf4dbead5": {
+            "input": {
+              "save_in_existing_space": "", 
+              "save_in_existing_space_text": ""
+            }
+          }, 
+          "0de0a94cd4d9a971": {
+            "input": {}, 
+            "output": {
+              "pipeline_fail": "yes"
+            }
+          }, 
+          "1048eba38df5b240": {
+            "enable": "yes", 
+            "input": {
+              "additional_compiler_flags": "", 
+              "all_compiler_flags": {
+                "00a67c4cacaf0f8c": "", 
+                "04c959ea8d55c5f4": "", 
+                "0b0e12999f405eb3": "", 
+                "0b4ceb49078beb77": "", 
+                "0cb8346f1845d875": "", 
+                "0d93563363616be4": "", 
+                "119ea934b75b8ce1": "", 
+                "11afc410764918b3": "", 
+                "137104e7450aabb3": "", 
+                "13db1ad624e3da0a": "", 
+                "14d7c8d4a6160d87": "", 
+                "18abae40f4b4449b": "", 
+                "1969001408ea4121": "", 
+                "1b6684fae81ab6f1": "", 
+                "1bb07d91c2901d9c": "", 
+                "1bc3a38d79a7fbf9": "", 
+                "1bf09c49d8ac0297": "", 
+                "1d6aa77aaf964258": "", 
+                "1dae0cb3869694db": "", 
+                "1e8cf45688f2a8eb": "", 
+                "1ef371eae47379ad": "", 
+                "1fba77a1a7145b5f": "", 
+                "1fbfa8fd418a9c44": "", 
+                "21c49719c9c8241b": "", 
+                "22404e81ac8fef41": "", 
+                "24e8c8f9679e5a55": "", 
+                "291caf45e1b30954": "", 
+                "2996741479beb5f9": "", 
+                "2dc7b94ed64ad48e": "", 
+                "3387476486d678f4": "", 
+                "347243b693d47b57": "", 
+                "35542454860b4b10": "", 
+                "36156d7564d4880c": "", 
+                "3710befb457a9338": "", 
+                "376616507d497297": "", 
+                "3a4c9b5c40f0a92b": "", 
+                "3bb5f1b224271666": "", 
+                "3c076eeb04011866": "", 
+                "3d5b448590949a2a": "", 
+                "3d8702f04937ad09": "", 
+                "3d93bd590f18b8d9": "", 
+                "3fdba9d7ef8a0152": "", 
+                "425ca8800e74f16b": "", 
+                "429ed2433b969d50": "", 
+                "43f98be579287036": "", 
+                "440985ba293939ba": "", 
+                "44489b55b4e42a86": "", 
+                "44b6a8ca81d6f723": "", 
+                "44ba548eb956329d": "", 
+                "4757bd835884fe3a": "", 
+                "4a0b07ad8410780f": "", 
+                "4bfebbfdfeb6bdff": "", 
+                "4c0e5882c584c8a8": "", 
+                "4dc4b3e92f572b83": "", 
+                "4dc859e2d024ed28": "", 
+                "4e0238b44e3b4e6e": "", 
+                "4e78a18bfa949b8c": "", 
+                "4e869a85ad90708d": "", 
+                "4eca448badeccaa0": "", 
+                "4fc2f148d418eb97": "", 
+                "5034792a35943eb4": "", 
+                "51cacf1072c6cc2f": "", 
+                "52b747d5c1fd8095": "", 
+                "567b3742bb347acb": "", 
+                "58b27ebe2de98026": "", 
+                "5934471b05e4569a": "", 
+                "59abf44a58e7fd6f": "", 
+                "5a403d98d7967e79": "", 
+                "5a4104069e0471ab": "", 
+                "5a47639f8cc12a1c": "", 
+                "5a970cf7ab48db6b": "", 
+                "5c1bd7e813f7dce5": "", 
+                "5cad3a3438586cd1": "", 
+                "5cb03403b825655e": "", 
+                "61063dfb4bc9bae0": "", 
+                "614d0a55b46df86c": "", 
+                "62661e75cfd4468d": "", 
+                "63d417c71fb4b388": "", 
+                "644eaca831748236": "", 
+                "64b4919894a2299b": "", 
+                "66042f685246bf1a": "", 
+                "6801054dc8b9b9a5": "", 
+                "6d13a56f53574090": "", 
+                "6df2cb7a4702a747": "", 
+                "6df7c54439f8e691": "", 
+                "73dbf30d4154b968": "", 
+                "797ae4164459864c": "", 
+                "7ae8479be44b74b1": "", 
+                "7c3f473293bf608a": "", 
+                "7d41900ccb1940ab": "", 
+                "7e447aaa8d664454": "", 
+                "7f4a61a2f87f1e34": "", 
+                "82802fd4b32b93cd": "", 
+                "84408b07364ab3a9": "", 
+                "85d33202024080ab": "", 
+                "87498867fca98d32": "", 
+                "8806a551f91a8737": "", 
+                "888580be4a9e84b8": "", 
+                "8936a0311361484b": "", 
+                "894ae8af4c949986": "", 
+                "8a95f00cf13eb4ec": "", 
+                "8ad94b58dd660a9d": "", 
+                "8b4adb9bbaa692f3": "", 
+                "9222eca404aa3b11": "", 
+                "92ad4b94bcfabe3d": "", 
+                "92b4f83dd7226297": "", 
+                "940dbaa240e397b5": "", 
+                "94cad9f122779181": "", 
+                "994dc234f6393887": "", 
+                "9ae077fc4f79a2ae": "", 
+                "9b16eee1a2f42af8": "", 
+                "9ef940dbbaa10a12": "", 
+                "9fb811c98385cdcb": "", 
+                "a00bf4bfa92d8fc5": "", 
+                "a49a48c5ed2da535": "", 
+                "a75489c902aa9a36": "", 
+                "a8a706d2f9172a49": "", 
+                "ab227e214e509f13": "", 
+                "ad39a19391eb1ac8": "", 
+                "affb616f34d6fdae": "", 
+                "b0434634b7e826be": "", 
+                "b16409f88c034f48": "", 
+                "b436d0c46ec9a6fb": "", 
+                "b47d0b76f2a62314": "", 
+                "b5e7f73de2410584": "", 
+                "b9a7fc0a0ec8c971": "", 
+                "ba936d89d4433681": "", 
+                "baa365b6e6c729b3": "", 
+                "base_flag": "-O3", 
+                "bd57d9f517048a19": "", 
+                "bdaca296330fe0e0": "", 
+                "beb8ee5943a5631a": "", 
+                "c03fc477d93dbc2e": "", 
+                "c0bd29481b843f6a": "", 
+                "c39432d9feee8688": "", 
+                "c7a9deb78ec443ab": "", 
+                "c937c84024958357": "", 
+                "c96860fecaa3432d": "", 
+                "ca0fa5fff4768219": "", 
+                "ce8db8274eddbba3": "", 
+                "d041b035502b4b97": "", 
+                "d0ed7f4615a42229": "", 
+                "d2ac0c4f74cb180d": "", 
+                "d3b84985d7d246ae": "", 
+                "d4714a645a1b2989": "", 
+                "d5cd3aa415b9b26b": "", 
+                "d694b95b131f6d1b": "", 
+                "d74990be6d4d2fb2": "", 
+                "d89bccfdae1b1c5a": "", 
+                "d9a4921ae4696695": "", 
+                "da20af07ee19476e": "", 
+                "db0846e23a4f8099": "", 
+                "dbd666d4b85185d6": "", 
+                "dca43f983622bec5": "", 
+                "de4a81953dad5321": "", 
+                "e1ee3f34dbc85cf9": "", 
+                "e3a0fae004561a74": "", 
+                "e42868d58ad82202": "", 
+                "e44e1880baae8cee": "", 
+                "e773f073d9340bb8": "", 
+                "eaa929a6f941319a": "", 
+                "ec6c9c47a1a89eba": "", 
+                "f05f92c981d4b589": "", 
+                "f39d04c6116fcd62": "", 
+                "f4271472ebf517f7": "", 
+                "f4c179a4895e1716": "", 
+                "f4d4d8c2188535bf": "", 
+                "f6b9086414952269": "", 
+                "f7c346129230ddea": "", 
+                "f853cf5e5a68bfc3": "", 
+                "f8db244ccbb07249": "", 
+                "fa6016ca3f28e6ea": "", 
+                "fac0b674d90bd306": "", 
+                "fd2aecc72004eae9": "", 
+                "fe4ba28eb861bcd5": "", 
+                "ff48c68218bbdb6f": "", 
+                "openmp_flag": "-fopenmp"
+              }, 
+              "all_compiler_flags_order": [
+                "base_flag", 
+                "openmp_flag", 
+                "9ef940dbbaa10a12", 
+                "5034792a35943eb4", 
+                "f4271472ebf517f7", 
+                "f4d4d8c2188535bf", 
+                "92b4f83dd7226297", 
+                "797ae4164459864c", 
+                "b436d0c46ec9a6fb", 
+                "d74990be6d4d2fb2", 
+                "3d8702f04937ad09", 
+                "8ad94b58dd660a9d", 
+                "c39432d9feee8688", 
+                "4a0b07ad8410780f", 
+                "0b0e12999f405eb3", 
+                "51cacf1072c6cc2f", 
+                "a8a706d2f9172a49", 
+                "e773f073d9340bb8", 
+                "2dc7b94ed64ad48e", 
+                "f6b9086414952269", 
+                "da20af07ee19476e", 
+                "82802fd4b32b93cd", 
+                "9fb811c98385cdcb", 
+                "6801054dc8b9b9a5", 
+                "63d417c71fb4b388", 
+                "5a47639f8cc12a1c", 
+                "04c959ea8d55c5f4", 
+                "9b16eee1a2f42af8", 
+                "1969001408ea4121", 
+                "1ef371eae47379ad", 
+                "3d93bd590f18b8d9", 
+                "f8db244ccbb07249", 
+                "1b6684fae81ab6f1", 
+                "f853cf5e5a68bfc3", 
+                "1bc3a38d79a7fbf9", 
+                "291caf45e1b30954", 
+                "d3b84985d7d246ae", 
+                "614d0a55b46df86c", 
+                "3fdba9d7ef8a0152", 
+                "119ea934b75b8ce1", 
+                "376616507d497297", 
+                "4dc859e2d024ed28", 
+                "f7c346129230ddea", 
+                "3bb5f1b224271666", 
+                "3710befb457a9338", 
+                "5c1bd7e813f7dce5", 
+                "affb616f34d6fdae", 
+                "440985ba293939ba", 
+                "8a95f00cf13eb4ec", 
+                "a00bf4bfa92d8fc5", 
+                "5cad3a3438586cd1", 
+                "1bf09c49d8ac0297", 
+                "92ad4b94bcfabe3d", 
+                "bd57d9f517048a19", 
+                "c0bd29481b843f6a", 
+                "87498867fca98d32", 
+                "567b3742bb347acb", 
+                "7f4a61a2f87f1e34", 
+                "e42868d58ad82202", 
+                "6d13a56f53574090", 
+                "b0434634b7e826be", 
+                "4c0e5882c584c8a8", 
+                "b47d0b76f2a62314", 
+                "35542454860b4b10", 
+                "d89bccfdae1b1c5a", 
+                "dca43f983622bec5", 
+                "dbd666d4b85185d6", 
+                "7ae8479be44b74b1", 
+                "5cb03403b825655e", 
+                "2996741479beb5f9", 
+                "fac0b674d90bd306", 
+                "644eaca831748236", 
+                "a75489c902aa9a36", 
+                "fe4ba28eb861bcd5", 
+                "7d41900ccb1940ab", 
+                "5a970cf7ab48db6b", 
+                "e1ee3f34dbc85cf9", 
+                "ab227e214e509f13", 
+                "ec6c9c47a1a89eba", 
+                "ce8db8274eddbba3", 
+                "22404e81ac8fef41", 
+                "14d7c8d4a6160d87", 
+                "f4c179a4895e1716", 
+                "43f98be579287036", 
+                "4dc4b3e92f572b83", 
+                "4e0238b44e3b4e6e", 
+                "6df2cb7a4702a747", 
+                "8806a551f91a8737", 
+                "fa6016ca3f28e6ea", 
+                "6df7c54439f8e691", 
+                "3d5b448590949a2a", 
+                "d041b035502b4b97", 
+                "18abae40f4b4449b", 
+                "c03fc477d93dbc2e", 
+                "bdaca296330fe0e0", 
+                "0b4ceb49078beb77", 
+                "137104e7450aabb3", 
+                "84408b07364ab3a9", 
+                "4eca448badeccaa0", 
+                "c937c84024958357", 
+                "d694b95b131f6d1b", 
+                "429ed2433b969d50", 
+                "fd2aecc72004eae9", 
+                "3a4c9b5c40f0a92b", 
+                "61063dfb4bc9bae0", 
+                "beb8ee5943a5631a", 
+                "3387476486d678f4", 
+                "db0846e23a4f8099", 
+                "1e8cf45688f2a8eb", 
+                "9222eca404aa3b11", 
+                "36156d7564d4880c", 
+                "24e8c8f9679e5a55", 
+                "66042f685246bf1a", 
+                "21c49719c9c8241b", 
+                "64b4919894a2299b", 
+                "d5cd3aa415b9b26b", 
+                "c7a9deb78ec443ab", 
+                "8936a0311361484b", 
+                "7e447aaa8d664454", 
+                "11afc410764918b3", 
+                "4fc2f148d418eb97", 
+                "ba936d89d4433681", 
+                "9ae077fc4f79a2ae", 
+                "7c3f473293bf608a", 
+                "00a67c4cacaf0f8c", 
+                "894ae8af4c949986", 
+                "f05f92c981d4b589", 
+                "4e78a18bfa949b8c", 
+                "d4714a645a1b2989", 
+                "baa365b6e6c729b3", 
+                "62661e75cfd4468d", 
+                "73dbf30d4154b968", 
+                "425ca8800e74f16b", 
+                "94cad9f122779181", 
+                "d0ed7f4615a42229", 
+                "a49a48c5ed2da535", 
+                "52b747d5c1fd8095", 
+                "5934471b05e4569a", 
+                "1fba77a1a7145b5f", 
+                "5a403d98d7967e79", 
+                "c96860fecaa3432d", 
+                "85d33202024080ab", 
+                "1dae0cb3869694db", 
+                "b9a7fc0a0ec8c971", 
+                "58b27ebe2de98026", 
+                "d9a4921ae4696695", 
+                "44b6a8ca81d6f723", 
+                "940dbaa240e397b5", 
+                "1d6aa77aaf964258", 
+                "e44e1880baae8cee", 
+                "4e869a85ad90708d", 
+                "ca0fa5fff4768219", 
+                "8b4adb9bbaa692f3", 
+                "b5e7f73de2410584", 
+                "f39d04c6116fcd62", 
+                "1fbfa8fd418a9c44", 
+                "44ba548eb956329d", 
+                "de4a81953dad5321", 
+                "994dc234f6393887", 
+                "5a4104069e0471ab", 
+                "4757bd835884fe3a", 
+                "e3a0fae004561a74", 
+                "888580be4a9e84b8", 
+                "347243b693d47b57", 
+                "1bb07d91c2901d9c", 
+                "13db1ad624e3da0a", 
+                "ad39a19391eb1ac8", 
+                "3c076eeb04011866", 
+                "d2ac0c4f74cb180d", 
+                "eaa929a6f941319a", 
+                "4bfebbfdfeb6bdff", 
+                "b16409f88c034f48", 
+                "44489b55b4e42a86", 
+                "59abf44a58e7fd6f", 
+                "0d93563363616be4", 
+                "0cb8346f1845d875", 
+                "ff48c68218bbdb6f"
+              ], 
+              "opt_class_uid": "", 
+              "use_only_base_flag": "no", 
+              "use_openmp_flag": "no"
+            }, 
+            "output": {
+              "prepared_compiler_flags": ""
+            }
+          }, 
+          "1f0b7684a4e82b4d": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "output_correct": ""
+            }
+          }, 
+          "26fc4522ada736fd": {
+            "enable": "yes", 
+            "output": {
+              "memory_string": "845 MB", 
+              "os_string": "Linux version 3.3.0 (zhengzhenxing@brn-zhengzhenxing) (gcc version 4.6.3 20120201 (prerelease) (crosstool-NG linaro-1.13.1-2012.02-20120222 - Linaro GCC 2012.02) ) #1 SMP PREEMPT Thu Sep 26 16:33:59 CST 2013", 
+              "processor_string": "ARMv7 Processor rev 4 (v7l)", 
+              "system_string": "Unknown wing_s906I"
+            }
+          }, 
+          "32a5da1354398809": {
+            "enable": "no"
+          }, 
+          "4014f7933ad34393": {
+            "enable": "no", 
+            "input": {
+              "vtune_code_uoa": ""
+            }
+          }, 
+          "497ab53d27dda776": {
+            "enable": "no", 
+            "input": {
+              "cjson_library": "", 
+              "openme_library": "", 
+              "openme_library_ctuning_plugin": ""
+            }
+          }, 
+          "4e76b29d5e5a550a": {
+            "enable": "no", 
+            "input": {
+              "frequency": "", 
+              "frequency_str": "", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "5344edbd71d39038": {
+            "enable": "no", 
+            "input": {
+              "support_output_to_file": "no"
+            }
+          }, 
+          "576542229300f6dd": {
+            "enable": "no", 
+            "input": {
+              "alchemist_plugin_code_uoa": "", 
+              "alchemist_subplugin_code_uoa": "", 
+              "mode": "record_function_names"
+            }
+          }, 
+          "5ae350247fa8bc2f": {
+            "enable": "yes", 
+            "input": {
+              "refresh_from_templates": "yes", 
+              "run_script": "clean", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_target_file_check": "yes"
+            }
+          }, 
+          "6e86c4e99b08aabe": {
+            "enable": "no", 
+            "input": {
+              "force_unroll_factor": "", 
+              "input_file": "", 
+              "mode": "record_transformations", 
+              "output_file": "", 
+              "universal_alchemist_plugin_code_uoa": ""
+            }
+          }, 
+          "75581c4a4e4072c8": {
+            "enable": "yes", 
+            "input": {
+              "calibrate": "no", 
+              "calibrate_max_iters": "12", 
+              "calibrate_time": "5", 
+              "openmp_number_of_threads": "", 
+              "run_vars": {
+                "CT_REPEAT_MAIN": "400"
+              }, 
+              "web_run_cmd1": ""
+            }, 
+            "output": {
+              "benchmark_score": "", 
+              "exit_code": "", 
+              "global_execution_time_div_by_repeat": "", 
+              "number_of_kernel_repetitions": "", 
+              "run_time_by_module": ""
+            }
+          }, 
+          "84e67b7093c4a048": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {}
+          }, 
+          "9478e9ffb279a99b": {
+            "enable": "no", 
+            "input": {
+              "ctuning_compiler_code_uoa": "", 
+              "ctuning_compiler_plugins_code_uoa": "", 
+              "milepost_compiler_code_uoa": "", 
+              "milepost_compiler_extract_after_pass": "fre", 
+              "mode": ""
+            }
+          }, 
+          "9e4f2d963ccd037b": {
+            "enable": "yes", 
+            "input": {
+              "cm_dependencies": [], 
+              "compilation_type": "dynamic", 
+              "compilation_type_of_linked_libraries": "static", 
+              "program_build_properties": {}, 
+              "run_script": "build_dynamic_bin_c", 
+              "run_script_uoa": "9738ca3d2555f6eb"
+            }, 
+            "output": {
+              "exit_code": "", 
+              "run_time_by_module": "", 
+              "target_file_size": ""
+            }
+          }, 
+          "9f4d948a74b0397a": {
+            "input": {
+              "accelerator_compiler_code_uoa": "", 
+              "benchmark_execution_internal_id": "", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "3047789a58da55a4", 
+              "ctuning_accelerator_compiler_uoa": "ac263305247d3953", 
+              "ctuning_compiler_uoa": "97ce21f1b4e349a9", 
+              "ctuning_setup_uoa": "24ad2accd51ff584", 
+              "dataset_uoa": "0045c9b59e84318b", 
+              "host_os_uoa": "7a95e0754c37610a", 
+              "notes": "", 
+              "program_uoa": "1db78910464c9d05", 
+              "prune_program_by_class": "", 
+              "run_cmd_key": "default", 
+              "run_script": "build_dynamic_bin_c", 
+              "target_accelerator_processor_uoa": "", 
+              "target_os_uoa": "338d4564adb44448", 
+              "target_processor_uoa": "5294d2983f398626", 
+              "tuning_objective": "et", 
+              "tuning_repo_uoa": "f476d66140b8b3db", 
+              "user_friendly_system_name": ""
+            }
+          }, 
+          "a574174ac39d2f42": {
+            "enable": "yes", 
+            "output": {
+              "system_state": {
+                "properties": {
+                  "cpu_frequency": ""
+                }
+              }
+            }
+          }, 
+          "a899de0d432082ab": {
+            "enable": "no", 
+            "input": {
+              "parallelize": "no", 
+              "pluto_compiler_code_uoa": "", 
+              "tile": "no", 
+              "tile_factor": "32", 
+              "tile_factors_topology": "", 
+              "unroll": "no", 
+              "unroll_factor": "2"
+            }
+          }, 
+          "b2546b6ab4dc2376": {
+            "output": {
+              "run_time_kernel": ""
+            }
+          }, 
+          "cm_characteristics": {
+            "global_cpi": "", 
+            "global_instructions_retired": ""
+          }, 
+          "cm_save_json_to_file": "", 
+          "cm_save_output_json_to_file": "", 
+          "cm_show_json": "no", 
+          "cm_show_output_json": "no", 
+          "cm_stat_characteristics": {
+            "75581c4a4e4072c8": {
+              "output": {
+                "global_execution_time_div_by_repeat": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1"
+                }, 
+                "run_time_by_module": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1", 
+                  "nortest_cvm": {
+                    "p.value": ""
+                  }, 
+                  "nortest_lillie": {
+                    "p.value": ""
+                  }, 
+                  "nortest_pearson": {
+                    "p.value": ""
+                  }, 
+                  "number": "-1"
+                }
+              }
+            }, 
+            "9e4f2d963ccd037b": {
+              "output": {
+                "run_time_by_module": {
+                  "all": [], 
+                  "delta": "0", 
+                  "delta_percent": "0", 
+                  "max": "-1", 
+                  "min": "-1"
+                }
+              }
+            }
+          }, 
+          "e98ec4cff4040813": {
+            "enable": "no", 
+            "input": {
+              "instrumentation": "yes", 
+              "likwid_code_uoa": "", 
+              "measure_event_set": "", 
+              "measure_performance_group": "", 
+              "processor_pinning": "0", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "f4af1629481564f9": {
+            "enable": "yes", 
+            "input": {}
+          }, 
+          "f53e1f0898493e87": {
+            "output": {
+              "global_dataset_name": "", 
+              "global_dataset_uid": "", 
+              "global_source_code_name": "", 
+              "global_source_code_uid": "", 
+              "program_uoa": ""
+            }
+          }, 
+          "keep_all_files": "no", 
+          "misc": {
+            "cm_iso_datetime_finished": "", 
+            "cm_iso_datetime_started": "", 
+            "cm_user_uid": "", 
+            "dissemination": {
+              "publications": [
+                "6f40bc99c4f7df58", 
+                "1943b3f46fabaee4", 
+                "983680d43b0b033d"
+              ]
+            }
+          }
+        }
+      }, 
+      "pipeline_output": {
+        "cm_return": 0, 
+        "fail": false, 
+        "state": {
+          "0003217cf4dbead5": {
+            "input": {
+              "save_in_existing_space": "", 
+              "save_in_existing_space_text": ""
+            }
+          }, 
+          "0de0a94cd4d9a971": {
+            "input": {}, 
+            "output": {
+              "pipeline_fail": "no"
+            }
+          }, 
+          "1048eba38df5b240": {
+            "enable": "yes", 
+            "input": {
+              "additional_compiler_flags": "", 
+              "all_compiler_flags": {
+                "00a67c4cacaf0f8c": "", 
+                "04c959ea8d55c5f4": "", 
+                "0b0e12999f405eb3": "", 
+                "0b4ceb49078beb77": "", 
+                "0cb8346f1845d875": "", 
+                "0d93563363616be4": "", 
+                "119ea934b75b8ce1": "", 
+                "11afc410764918b3": "", 
+                "137104e7450aabb3": "", 
+                "13db1ad624e3da0a": "", 
+                "14d7c8d4a6160d87": "", 
+                "18abae40f4b4449b": "", 
+                "1969001408ea4121": "", 
+                "1b6684fae81ab6f1": "", 
+                "1bb07d91c2901d9c": "", 
+                "1bc3a38d79a7fbf9": "", 
+                "1bf09c49d8ac0297": "", 
+                "1d6aa77aaf964258": "", 
+                "1dae0cb3869694db": "", 
+                "1e8cf45688f2a8eb": "", 
+                "1ef371eae47379ad": "", 
+                "1fba77a1a7145b5f": "", 
+                "1fbfa8fd418a9c44": "", 
+                "21c49719c9c8241b": "", 
+                "22404e81ac8fef41": "", 
+                "24e8c8f9679e5a55": "", 
+                "291caf45e1b30954": "", 
+                "2996741479beb5f9": "", 
+                "2dc7b94ed64ad48e": "", 
+                "3387476486d678f4": "", 
+                "347243b693d47b57": "", 
+                "35542454860b4b10": "", 
+                "36156d7564d4880c": "", 
+                "3710befb457a9338": "", 
+                "376616507d497297": "", 
+                "3a4c9b5c40f0a92b": "", 
+                "3bb5f1b224271666": "", 
+                "3c076eeb04011866": "", 
+                "3d5b448590949a2a": "", 
+                "3d8702f04937ad09": "", 
+                "3d93bd590f18b8d9": "", 
+                "3fdba9d7ef8a0152": "", 
+                "425ca8800e74f16b": "", 
+                "429ed2433b969d50": "", 
+                "43f98be579287036": "", 
+                "440985ba293939ba": "", 
+                "44489b55b4e42a86": "", 
+                "44b6a8ca81d6f723": "", 
+                "44ba548eb956329d": "", 
+                "4757bd835884fe3a": "", 
+                "4a0b07ad8410780f": "", 
+                "4bfebbfdfeb6bdff": "", 
+                "4c0e5882c584c8a8": "", 
+                "4dc4b3e92f572b83": "", 
+                "4dc859e2d024ed28": "", 
+                "4e0238b44e3b4e6e": "", 
+                "4e78a18bfa949b8c": "", 
+                "4e869a85ad90708d": "", 
+                "4eca448badeccaa0": "", 
+                "4fc2f148d418eb97": "", 
+                "5034792a35943eb4": "", 
+                "51cacf1072c6cc2f": "", 
+                "52b747d5c1fd8095": "", 
+                "567b3742bb347acb": "", 
+                "58b27ebe2de98026": "", 
+                "5934471b05e4569a": "", 
+                "59abf44a58e7fd6f": "", 
+                "5a403d98d7967e79": "", 
+                "5a4104069e0471ab": "", 
+                "5a47639f8cc12a1c": "", 
+                "5a970cf7ab48db6b": "", 
+                "5c1bd7e813f7dce5": "", 
+                "5cad3a3438586cd1": "", 
+                "5cb03403b825655e": "", 
+                "61063dfb4bc9bae0": "", 
+                "614d0a55b46df86c": "", 
+                "62661e75cfd4468d": "", 
+                "63d417c71fb4b388": "", 
+                "644eaca831748236": "", 
+                "64b4919894a2299b": "", 
+                "66042f685246bf1a": "", 
+                "6801054dc8b9b9a5": "", 
+                "6d13a56f53574090": "", 
+                "6df2cb7a4702a747": "", 
+                "6df7c54439f8e691": "", 
+                "73dbf30d4154b968": "", 
+                "797ae4164459864c": "", 
+                "7ae8479be44b74b1": "", 
+                "7c3f473293bf608a": "", 
+                "7d41900ccb1940ab": "", 
+                "7e447aaa8d664454": "", 
+                "7f4a61a2f87f1e34": "", 
+                "82802fd4b32b93cd": "", 
+                "84408b07364ab3a9": "", 
+                "85d33202024080ab": "", 
+                "87498867fca98d32": "", 
+                "8806a551f91a8737": "", 
+                "888580be4a9e84b8": "", 
+                "8936a0311361484b": "", 
+                "894ae8af4c949986": "", 
+                "8a95f00cf13eb4ec": "", 
+                "8ad94b58dd660a9d": "", 
+                "8b4adb9bbaa692f3": "", 
+                "9222eca404aa3b11": "", 
+                "92ad4b94bcfabe3d": "", 
+                "92b4f83dd7226297": "", 
+                "940dbaa240e397b5": "", 
+                "94cad9f122779181": "", 
+                "994dc234f6393887": "", 
+                "9ae077fc4f79a2ae": "", 
+                "9b16eee1a2f42af8": "", 
+                "9ef940dbbaa10a12": "", 
+                "9fb811c98385cdcb": "", 
+                "a00bf4bfa92d8fc5": "", 
+                "a49a48c5ed2da535": "", 
+                "a75489c902aa9a36": "", 
+                "a8a706d2f9172a49": "", 
+                "ab227e214e509f13": "", 
+                "ad39a19391eb1ac8": "", 
+                "affb616f34d6fdae": "", 
+                "b0434634b7e826be": "", 
+                "b16409f88c034f48": "", 
+                "b436d0c46ec9a6fb": "", 
+                "b47d0b76f2a62314": "", 
+                "b5e7f73de2410584": "", 
+                "b9a7fc0a0ec8c971": "", 
+                "ba936d89d4433681": "", 
+                "baa365b6e6c729b3": "", 
+                "base_flag": "-O3", 
+                "bd57d9f517048a19": "", 
+                "bdaca296330fe0e0": "", 
+                "beb8ee5943a5631a": "", 
+                "c03fc477d93dbc2e": "", 
+                "c0bd29481b843f6a": "", 
+                "c39432d9feee8688": "", 
+                "c7a9deb78ec443ab": "", 
+                "c937c84024958357": "", 
+                "c96860fecaa3432d": "", 
+                "ca0fa5fff4768219": "", 
+                "ce8db8274eddbba3": "", 
+                "d041b035502b4b97": "", 
+                "d0ed7f4615a42229": "", 
+                "d2ac0c4f74cb180d": "", 
+                "d3b84985d7d246ae": "", 
+                "d4714a645a1b2989": "", 
+                "d5cd3aa415b9b26b": "", 
+                "d694b95b131f6d1b": "", 
+                "d74990be6d4d2fb2": "", 
+                "d89bccfdae1b1c5a": "", 
+                "d9a4921ae4696695": "", 
+                "da20af07ee19476e": "", 
+                "db0846e23a4f8099": "", 
+                "dbd666d4b85185d6": "", 
+                "dca43f983622bec5": "", 
+                "de4a81953dad5321": "", 
+                "e1ee3f34dbc85cf9": "", 
+                "e3a0fae004561a74": "", 
+                "e42868d58ad82202": "", 
+                "e44e1880baae8cee": "", 
+                "e773f073d9340bb8": "", 
+                "eaa929a6f941319a": "", 
+                "ec6c9c47a1a89eba": "", 
+                "f05f92c981d4b589": "", 
+                "f39d04c6116fcd62": "", 
+                "f4271472ebf517f7": "", 
+                "f4c179a4895e1716": "", 
+                "f4d4d8c2188535bf": "", 
+                "f6b9086414952269": "", 
+                "f7c346129230ddea": "", 
+                "f853cf5e5a68bfc3": "", 
+                "f8db244ccbb07249": "", 
+                "fa6016ca3f28e6ea": "", 
+                "fac0b674d90bd306": "", 
+                "fd2aecc72004eae9": "", 
+                "fe4ba28eb861bcd5": "", 
+                "ff48c68218bbdb6f": "", 
+                "openmp_flag": ""
+              }, 
+              "all_compiler_flags_order": [
+                "base_flag", 
+                "openmp_flag", 
+                "9ef940dbbaa10a12", 
+                "5034792a35943eb4", 
+                "f4271472ebf517f7", 
+                "f4d4d8c2188535bf", 
+                "92b4f83dd7226297", 
+                "797ae4164459864c", 
+                "b436d0c46ec9a6fb", 
+                "d74990be6d4d2fb2", 
+                "3d8702f04937ad09", 
+                "8ad94b58dd660a9d", 
+                "c39432d9feee8688", 
+                "4a0b07ad8410780f", 
+                "0b0e12999f405eb3", 
+                "51cacf1072c6cc2f", 
+                "a8a706d2f9172a49", 
+                "e773f073d9340bb8", 
+                "2dc7b94ed64ad48e", 
+                "f6b9086414952269", 
+                "da20af07ee19476e", 
+                "82802fd4b32b93cd", 
+                "9fb811c98385cdcb", 
+                "6801054dc8b9b9a5", 
+                "63d417c71fb4b388", 
+                "5a47639f8cc12a1c", 
+                "04c959ea8d55c5f4", 
+                "9b16eee1a2f42af8", 
+                "1969001408ea4121", 
+                "1ef371eae47379ad", 
+                "3d93bd590f18b8d9", 
+                "f8db244ccbb07249", 
+                "1b6684fae81ab6f1", 
+                "f853cf5e5a68bfc3", 
+                "1bc3a38d79a7fbf9", 
+                "291caf45e1b30954", 
+                "d3b84985d7d246ae", 
+                "614d0a55b46df86c", 
+                "3fdba9d7ef8a0152", 
+                "119ea934b75b8ce1", 
+                "376616507d497297", 
+                "4dc859e2d024ed28", 
+                "f7c346129230ddea", 
+                "3bb5f1b224271666", 
+                "3710befb457a9338", 
+                "5c1bd7e813f7dce5", 
+                "affb616f34d6fdae", 
+                "440985ba293939ba", 
+                "8a95f00cf13eb4ec", 
+                "a00bf4bfa92d8fc5", 
+                "5cad3a3438586cd1", 
+                "1bf09c49d8ac0297", 
+                "92ad4b94bcfabe3d", 
+                "bd57d9f517048a19", 
+                "c0bd29481b843f6a", 
+                "87498867fca98d32", 
+                "567b3742bb347acb", 
+                "7f4a61a2f87f1e34", 
+                "e42868d58ad82202", 
+                "6d13a56f53574090", 
+                "b0434634b7e826be", 
+                "4c0e5882c584c8a8", 
+                "b47d0b76f2a62314", 
+                "35542454860b4b10", 
+                "d89bccfdae1b1c5a", 
+                "dca43f983622bec5", 
+                "dbd666d4b85185d6", 
+                "7ae8479be44b74b1", 
+                "5cb03403b825655e", 
+                "2996741479beb5f9", 
+                "fac0b674d90bd306", 
+                "644eaca831748236", 
+                "a75489c902aa9a36", 
+                "fe4ba28eb861bcd5", 
+                "7d41900ccb1940ab", 
+                "5a970cf7ab48db6b", 
+                "e1ee3f34dbc85cf9", 
+                "ab227e214e509f13", 
+                "ec6c9c47a1a89eba", 
+                "ce8db8274eddbba3", 
+                "22404e81ac8fef41", 
+                "14d7c8d4a6160d87", 
+                "f4c179a4895e1716", 
+                "43f98be579287036", 
+                "4dc4b3e92f572b83", 
+                "4e0238b44e3b4e6e", 
+                "6df2cb7a4702a747", 
+                "8806a551f91a8737", 
+                "fa6016ca3f28e6ea", 
+                "6df7c54439f8e691", 
+                "3d5b448590949a2a", 
+                "d041b035502b4b97", 
+                "18abae40f4b4449b", 
+                "c03fc477d93dbc2e", 
+                "bdaca296330fe0e0", 
+                "0b4ceb49078beb77", 
+                "137104e7450aabb3", 
+                "84408b07364ab3a9", 
+                "4eca448badeccaa0", 
+                "c937c84024958357", 
+                "d694b95b131f6d1b", 
+                "429ed2433b969d50", 
+                "fd2aecc72004eae9", 
+                "3a4c9b5c40f0a92b", 
+                "61063dfb4bc9bae0", 
+                "beb8ee5943a5631a", 
+                "3387476486d678f4", 
+                "db0846e23a4f8099", 
+                "1e8cf45688f2a8eb", 
+                "9222eca404aa3b11", 
+                "36156d7564d4880c", 
+                "24e8c8f9679e5a55", 
+                "66042f685246bf1a", 
+                "21c49719c9c8241b", 
+                "64b4919894a2299b", 
+                "d5cd3aa415b9b26b", 
+                "c7a9deb78ec443ab", 
+                "8936a0311361484b", 
+                "7e447aaa8d664454", 
+                "11afc410764918b3", 
+                "4fc2f148d418eb97", 
+                "ba936d89d4433681", 
+                "9ae077fc4f79a2ae", 
+                "7c3f473293bf608a", 
+                "00a67c4cacaf0f8c", 
+                "894ae8af4c949986", 
+                "f05f92c981d4b589", 
+                "4e78a18bfa949b8c", 
+                "d4714a645a1b2989", 
+                "baa365b6e6c729b3", 
+                "62661e75cfd4468d", 
+                "73dbf30d4154b968", 
+                "425ca8800e74f16b", 
+                "94cad9f122779181", 
+                "d0ed7f4615a42229", 
+                "a49a48c5ed2da535", 
+                "52b747d5c1fd8095", 
+                "5934471b05e4569a", 
+                "1fba77a1a7145b5f", 
+                "5a403d98d7967e79", 
+                "c96860fecaa3432d", 
+                "85d33202024080ab", 
+                "1dae0cb3869694db", 
+                "b9a7fc0a0ec8c971", 
+                "58b27ebe2de98026", 
+                "d9a4921ae4696695", 
+                "44b6a8ca81d6f723", 
+                "940dbaa240e397b5", 
+                "1d6aa77aaf964258", 
+                "e44e1880baae8cee", 
+                "4e869a85ad90708d", 
+                "ca0fa5fff4768219", 
+                "8b4adb9bbaa692f3", 
+                "b5e7f73de2410584", 
+                "f39d04c6116fcd62", 
+                "1fbfa8fd418a9c44", 
+                "44ba548eb956329d", 
+                "de4a81953dad5321", 
+                "994dc234f6393887", 
+                "5a4104069e0471ab", 
+                "4757bd835884fe3a", 
+                "e3a0fae004561a74", 
+                "888580be4a9e84b8", 
+                "347243b693d47b57", 
+                "1bb07d91c2901d9c", 
+                "13db1ad624e3da0a", 
+                "ad39a19391eb1ac8", 
+                "3c076eeb04011866", 
+                "d2ac0c4f74cb180d", 
+                "eaa929a6f941319a", 
+                "4bfebbfdfeb6bdff", 
+                "b16409f88c034f48", 
+                "44489b55b4e42a86", 
+                "59abf44a58e7fd6f", 
+                "0d93563363616be4", 
+                "0cb8346f1845d875", 
+                "ff48c68218bbdb6f"
+              ], 
+              "opt_class_uid": "", 
+              "use_only_base_flag": "no", 
+              "use_openmp_flag": "no"
+            }, 
+            "output": {
+              "all_flags_order": [
+                "base_flag", 
+                "openmp_flag", 
+                "9ef940dbbaa10a12", 
+                "5034792a35943eb4", 
+                "f4271472ebf517f7", 
+                "f4d4d8c2188535bf", 
+                "92b4f83dd7226297", 
+                "797ae4164459864c", 
+                "b436d0c46ec9a6fb", 
+                "d74990be6d4d2fb2", 
+                "3d8702f04937ad09", 
+                "8ad94b58dd660a9d", 
+                "c39432d9feee8688", 
+                "4a0b07ad8410780f", 
+                "0b0e12999f405eb3", 
+                "51cacf1072c6cc2f", 
+                "a8a706d2f9172a49", 
+                "e773f073d9340bb8", 
+                "2dc7b94ed64ad48e", 
+                "f6b9086414952269", 
+                "da20af07ee19476e", 
+                "82802fd4b32b93cd", 
+                "9fb811c98385cdcb", 
+                "6801054dc8b9b9a5", 
+                "63d417c71fb4b388", 
+                "5a47639f8cc12a1c", 
+                "04c959ea8d55c5f4", 
+                "9b16eee1a2f42af8", 
+                "1969001408ea4121", 
+                "1ef371eae47379ad", 
+                "3d93bd590f18b8d9", 
+                "f8db244ccbb07249", 
+                "1b6684fae81ab6f1", 
+                "f853cf5e5a68bfc3", 
+                "1bc3a38d79a7fbf9", 
+                "291caf45e1b30954", 
+                "d3b84985d7d246ae", 
+                "614d0a55b46df86c", 
+                "3fdba9d7ef8a0152", 
+                "119ea934b75b8ce1", 
+                "376616507d497297", 
+                "4dc859e2d024ed28", 
+                "f7c346129230ddea", 
+                "3bb5f1b224271666", 
+                "3710befb457a9338", 
+                "5c1bd7e813f7dce5", 
+                "affb616f34d6fdae", 
+                "440985ba293939ba", 
+                "8a95f00cf13eb4ec", 
+                "a00bf4bfa92d8fc5", 
+                "5cad3a3438586cd1", 
+                "1bf09c49d8ac0297", 
+                "92ad4b94bcfabe3d", 
+                "bd57d9f517048a19", 
+                "c0bd29481b843f6a", 
+                "87498867fca98d32", 
+                "567b3742bb347acb", 
+                "7f4a61a2f87f1e34", 
+                "e42868d58ad82202", 
+                "6d13a56f53574090", 
+                "b0434634b7e826be", 
+                "4c0e5882c584c8a8", 
+                "b47d0b76f2a62314", 
+                "35542454860b4b10", 
+                "d89bccfdae1b1c5a", 
+                "dca43f983622bec5", 
+                "dbd666d4b85185d6", 
+                "7ae8479be44b74b1", 
+                "5cb03403b825655e", 
+                "2996741479beb5f9", 
+                "fac0b674d90bd306", 
+                "644eaca831748236", 
+                "a75489c902aa9a36", 
+                "fe4ba28eb861bcd5", 
+                "7d41900ccb1940ab", 
+                "5a970cf7ab48db6b", 
+                "e1ee3f34dbc85cf9", 
+                "ab227e214e509f13", 
+                "ec6c9c47a1a89eba", 
+                "ce8db8274eddbba3", 
+                "22404e81ac8fef41", 
+                "14d7c8d4a6160d87", 
+                "f4c179a4895e1716", 
+                "43f98be579287036", 
+                "4dc4b3e92f572b83", 
+                "4e0238b44e3b4e6e", 
+                "6df2cb7a4702a747", 
+                "8806a551f91a8737", 
+                "fa6016ca3f28e6ea", 
+                "6df7c54439f8e691", 
+                "3d5b448590949a2a", 
+                "d041b035502b4b97", 
+                "18abae40f4b4449b", 
+                "c03fc477d93dbc2e", 
+                "bdaca296330fe0e0", 
+                "0b4ceb49078beb77", 
+                "137104e7450aabb3", 
+                "84408b07364ab3a9", 
+                "4eca448badeccaa0", 
+                "c937c84024958357", 
+                "d694b95b131f6d1b", 
+                "429ed2433b969d50", 
+                "fd2aecc72004eae9", 
+                "3a4c9b5c40f0a92b", 
+                "61063dfb4bc9bae0", 
+                "beb8ee5943a5631a", 
+                "3387476486d678f4", 
+                "db0846e23a4f8099", 
+                "1e8cf45688f2a8eb", 
+                "9222eca404aa3b11", 
+                "36156d7564d4880c", 
+                "24e8c8f9679e5a55", 
+                "66042f685246bf1a", 
+                "21c49719c9c8241b", 
+                "64b4919894a2299b", 
+                "d5cd3aa415b9b26b", 
+                "c7a9deb78ec443ab", 
+                "8936a0311361484b", 
+                "7e447aaa8d664454", 
+                "11afc410764918b3", 
+                "4fc2f148d418eb97", 
+                "ba936d89d4433681", 
+                "9ae077fc4f79a2ae", 
+                "7c3f473293bf608a", 
+                "00a67c4cacaf0f8c", 
+                "894ae8af4c949986", 
+                "f05f92c981d4b589", 
+                "4e78a18bfa949b8c", 
+                "d4714a645a1b2989", 
+                "baa365b6e6c729b3", 
+                "62661e75cfd4468d", 
+                "73dbf30d4154b968", 
+                "425ca8800e74f16b", 
+                "94cad9f122779181", 
+                "d0ed7f4615a42229", 
+                "a49a48c5ed2da535", 
+                "52b747d5c1fd8095", 
+                "5934471b05e4569a", 
+                "1fba77a1a7145b5f", 
+                "5a403d98d7967e79", 
+                "c96860fecaa3432d", 
+                "85d33202024080ab", 
+                "1dae0cb3869694db", 
+                "b9a7fc0a0ec8c971", 
+                "58b27ebe2de98026", 
+                "d9a4921ae4696695", 
+                "44b6a8ca81d6f723", 
+                "940dbaa240e397b5", 
+                "1d6aa77aaf964258", 
+                "e44e1880baae8cee", 
+                "4e869a85ad90708d", 
+                "ca0fa5fff4768219", 
+                "8b4adb9bbaa692f3", 
+                "b5e7f73de2410584", 
+                "f39d04c6116fcd62", 
+                "1fbfa8fd418a9c44", 
+                "44ba548eb956329d", 
+                "de4a81953dad5321", 
+                "994dc234f6393887", 
+                "5a4104069e0471ab", 
+                "4757bd835884fe3a", 
+                "e3a0fae004561a74", 
+                "888580be4a9e84b8", 
+                "347243b693d47b57", 
+                "1bb07d91c2901d9c", 
+                "13db1ad624e3da0a", 
+                "ad39a19391eb1ac8", 
+                "3c076eeb04011866", 
+                "d2ac0c4f74cb180d", 
+                "eaa929a6f941319a", 
+                "4bfebbfdfeb6bdff", 
+                "b16409f88c034f48", 
+                "44489b55b4e42a86", 
+                "59abf44a58e7fd6f", 
+                "0d93563363616be4", 
+                "0cb8346f1845d875", 
+                "ff48c68218bbdb6f"
+              ], 
+              "prepared_compiler_flags": "-O3"
+            }
+          }, 
+          "1f0b7684a4e82b4d": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "output_correct": "0"
+            }
+          }, 
+          "26fc4522ada736fd": {
+            "enable": "yes", 
+            "output": {
+              "memory_string": "845 MB", 
+              "os_string": "Linux version 3.3.0 (zhengzhenxing@brn-zhengzhenxing) (gcc version 4.6.3 20120201 (prerelease) (crosstool-NG linaro-1.13.1-2012.02-20120222 - Linaro GCC 2012.02) ) #1 SMP PREEMPT Thu Sep 26 16:33:59 CST 2013", 
+              "processor_string": "ARMv7 Processor rev 4 (v7l)", 
+              "system_string": "Unknown wing_s906I"
+            }
+          }, 
+          "32a5da1354398809": {
+            "enable": "no"
+          }, 
+          "4014f7933ad34393": {
+            "enable": "no", 
+            "input": {
+              "vtune_code_uoa": ""
+            }
+          }, 
+          "497ab53d27dda776": {
+            "enable": "no", 
+            "input": {
+              "cjson_library": "", 
+              "openme_library": "", 
+              "openme_library_ctuning_plugin": ""
+            }
+          }, 
+          "4e76b29d5e5a550a": {
+            "enable": "no", 
+            "input": {
+              "frequency": "", 
+              "frequency_str": "", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "5344edbd71d39038": {
+            "enable": "no", 
+            "input": {
+              "support_output_to_file": "no"
+            }
+          }, 
+          "576542229300f6dd": {
+            "enable": "no", 
+            "input": {
+              "alchemist_plugin_code_uoa": "", 
+              "alchemist_subplugin_code_uoa": "", 
+              "mode": "record_function_names"
+            }
+          }, 
+          "5ae350247fa8bc2f": {
+            "enable": "yes", 
+            "input": {
+              "refresh_from_templates": "yes", 
+              "run_script": "clean", 
+              "run_script_uoa": "9738ca3d2555f6eb", 
+              "skip_target_file_check": "yes"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 0, 
+              "run_cmd": "D:\\Work1\\CM\\cm-1.0\\repos\\default\\.cmr\\os.script\\build-generic\\cm_clean_universal.bat", 
+              "run_output_files": [
+                "a.out"
+              ], 
+              "run_time_by_module": "0.026", 
+              "target_file": "a.out", 
+              "work_dir": "D:\\Work1\\CM\\cm-repos\\ctuning-experiments\\.cmr\\code.source\\benchmark-cbench-bw-filter-simplified-less"
+            }
+          }, 
+          "6e86c4e99b08aabe": {
+            "enable": "no", 
+            "input": {
+              "force_unroll_factor": "", 
+              "input_file": "", 
+              "mode": "record_transformations", 
+              "output_file": "", 
+              "universal_alchemist_plugin_code_uoa": ""
+            }
+          }, 
+          "75581c4a4e4072c8": {
+            "enable": "yes", 
+            "input": {
+              "calibrate": "no", 
+              "calibrate_max_iters": "12", 
+              "calibrate_time": "5", 
+              "openmp_number_of_threads": "", 
+              "run_target_os_uoa": "338d4564adb44448", 
+              "run_vars": {
+                "CT_REPEAT_MAIN": "400"
+              }, 
+              "web_run_cmd1": ""
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 0, 
+              "global_execution_time_div_by_repeat": "0.03779", 
+              "number_of_kernel_repetitions": "400", 
+              "run_cmd": " ./a.out data.bin 1>tmp-output1.tmp 2>tmp-output2.tmp", 
+              "run_output_files": "yes", 
+              "run_time_by_module": "15.116", 
+              "work_dir": "D:\\Work1\\CM\\cm-repos\\ctuning-experiments\\.cmr\\code.source\\benchmark-cbench-bw-filter-simplified-less"
+            }
+          }, 
+          "84e67b7093c4a048": {
+            "enable": "yes", 
+            "input": {}, 
+            "output": {
+              "md5sum": "22176044c9a9fb1e0d8cc50a4a38e275"
+            }
+          }, 
+          "9478e9ffb279a99b": {
+            "enable": "no", 
+            "input": {
+              "ctuning_compiler_code_uoa": "", 
+              "ctuning_compiler_plugins_code_uoa": "", 
+              "milepost_compiler_code_uoa": "", 
+              "milepost_compiler_extract_after_pass": "fre", 
+              "mode": ""
+            }
+          }, 
+          "9e4f2d963ccd037b": {
+            "enable": "yes", 
+            "input": {
+              "cm_dependencies": [], 
+              "compilation_type": "dynamic", 
+              "compilation_type_of_linked_libraries": "static", 
+              "program_build_properties": {}, 
+              "run_script": "build_dynamic_bin_c", 
+              "run_script_uoa": "9738ca3d2555f6eb"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "exit_code": 0, 
+              "run_cmd": "D:\\Work1\\CM\\cm-1.0\\repos\\default\\.cmr\\os.script\\build-generic\\cm_build_dynamic_bin_c.bat 1>tmp-build-output1.tmp 2>tmp-build-output2.tmp", 
+              "run_output_files": [
+                "a.out"
+              ], 
+              "run_time_by_module": "0.721", 
+              "target_file": "a.out", 
+              "target_file_size": "9492", 
+              "work_dir": "D:\\Work1\\CM\\cm-repos\\ctuning-experiments\\.cmr\\code.source\\benchmark-cbench-bw-filter-simplified-less"
+            }
+          }, 
+          "9f4d948a74b0397a": {
+            "input": {
+              "accelerator_compiler_code_uoa": "", 
+              "benchmark_execution_internal_id": "", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "3047789a58da55a4", 
+              "ctuning_accelerator_compiler_uoa": "ac263305247d3953", 
+              "ctuning_compiler_uoa": "97ce21f1b4e349a9", 
+              "ctuning_setup_uoa": "24ad2accd51ff584", 
+              "dataset_uoa": "0045c9b59e84318b", 
+              "host_os_uoa": "7a95e0754c37610a", 
+              "notes": "", 
+              "program_uoa": "1db78910464c9d05", 
+              "prune_program_by_class": "", 
+              "run_cmd_key": "default", 
+              "run_script": "build_dynamic_bin_c", 
+              "target_accelerator_processor_uoa": "", 
+              "target_os_uoa": "338d4564adb44448", 
+              "target_processor_uoa": "5294d2983f398626", 
+              "tuning_objective": "et", 
+              "tuning_repo_uoa": "f476d66140b8b3db", 
+              "user_friendly_system_name": ""
+            }
+          }, 
+          "a574174ac39d2f42": {
+            "enable": "yes", 
+            "output": {
+              "cm_return": 0, 
+              "system_state": {
+                "properties": {
+                  "cpu_frequency": "912000", 
+                  "cpu_frequency_all": [], 
+                  "unix": {
+                    "cpu_state": {
+                      "": "", 
+                      "BogoMIPS": "1810.42", 
+                      "CPU architecture": "7", 
+                      "CPU implementer": "0x41", 
+                      "CPU part": "0xc07", 
+                      "CPU revision": "4", 
+                      "CPU variant": "0x0", 
+                      "Features": "swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt", 
+                      "Hardware": "sun7i", 
+                      "Processor": "ARMv7 Processor rev 4 (v7l)", 
+                      "Revision": "0000", 
+                      "Serial": "0301a7f153574848808089551651654a", 
+                      "processor": "0"
+                    }
+                  }
+                }
+              }
+            }
+          }, 
+          "a899de0d432082ab": {
+            "enable": "no", 
+            "input": {
+              "parallelize": "no", 
+              "pluto_compiler_code_uoa": "", 
+              "tile": "no", 
+              "tile_factor": "32", 
+              "tile_factors_topology": "", 
+              "unroll": "no", 
+              "unroll_factor": "2"
+            }
+          }, 
+          "b2546b6ab4dc2376": {
+            "output": {
+              "run_time_kernel": ""
+            }
+          }, 
+          "cm_characteristics": {
+            "global_build_time_max": "0.728", 
+            "global_build_time_min": "0.721", 
+            "global_code_md5sum": "22176044c9a9fb1e0d8cc50a4a38e275", 
+            "global_code_size": "9492", 
+            "global_cpi": "", 
+            "global_instructions_retired": "", 
+            "global_run_kernel_time_max": "0.03779", 
+            "global_run_kernel_time_min": "0.03765", 
+            "kernel_repeat": "400"
+          }, 
+          "cm_save_json_to_file": "", 
+          "cm_save_output_json_to_file": "", 
+          "cm_show_json": "no", 
+          "cm_show_output_json": "no", 
+          "cm_stat_characteristics": {
+            "75581c4a4e4072c8": {
+              "output": {
+                "global_execution_time_div_by_repeat": {
+                  "all": [
+                    "0.03765", 
+                    "0.03779"
+                  ], 
+                  "delta": "0.00014", 
+                  "delta_percent": "0.0037", 
+                  "max": "0.03779", 
+                  "min": "0.03765", 
+                  "nortest_cvm": {}, 
+                  "nortest_lillie": {}, 
+                  "nortest_pearson": {}, 
+                  "number": "2"
+                }, 
+                "run_time_by_module": {
+                  "all": [
+                    "15.060", 
+                    "15.116"
+                  ], 
+                  "delta": "0.056", 
+                  "delta_percent": "0.0037", 
+                  "max": "15.116", 
+                  "min": "15.06", 
+                  "nortest_cvm": {
+                    "p.value": ""
+                  }, 
+                  "nortest_lillie": {
+                    "p.value": ""
+                  }, 
+                  "nortest_pearson": {
+                    "p.value": ""
+                  }, 
+                  "number": "2"
+                }
+              }
+            }, 
+            "9e4f2d963ccd037b": {
+              "output": {
+                "run_time_by_module": {
+                  "all": [
+                    "0.728", 
+                    "0.721"
+                  ], 
+                  "delta": "0.007", 
+                  "delta_percent": "0.0097", 
+                  "max": "0.728", 
+                  "min": "0.721", 
+                  "nortest_cvm": {}, 
+                  "nortest_lillie": {}, 
+                  "nortest_pearson": {}, 
+                  "number": "2"
+                }
+              }
+            }
+          }, 
+          "e98ec4cff4040813": {
+            "enable": "no", 
+            "input": {
+              "instrumentation": "yes", 
+              "likwid_code_uoa": "", 
+              "measure_event_set": "", 
+              "measure_performance_group": "", 
+              "processor_pinning": "0", 
+              "use_sudo": "yes"
+            }
+          }, 
+          "f4af1629481564f9": {
+            "enable": "yes", 
+            "input": {
+              "os_uoa": "338d4564adb44448"
+            }, 
+            "output": {
+              "cm_return": 0, 
+              "run_time": {
+                "binary_name": "./a.out", 
+                "dataset_files": [
+                  "data.bin"
+                ], 
+                "original_run_input_files": [], 
+                "run_cmd_main": "data.bin", 
+                "run_cmd_out1": "tmp-output1.tmp", 
+                "run_cmd_out2": "tmp-output2.tmp", 
+                "run_correctness_output_files": [
+                  "tmp-output1.tmp", 
+                  "tmp-output2.tmp"
+                ], 
+                "run_input_files": [
+                  "D:\\Work1\\CM\\cm-repos\\ctuning\\.cmr\\dataset\\image-raw-bin-fgg-office-night-gray\\data.bin"
+                ], 
+                "run_output_files": []
+              }
+            }
+          }, 
+          "f53e1f0898493e87": {
+            "input": {
+              "build_target_os_uoa": "338d4564adb44448", 
+              "compilation_type": "dynamic", 
+              "compiler_code_uoa": "3047789a58da55a4", 
+              "ctuning_accelerator_compiler_uoa": "ac263305247d3953", 
+              "ctuning_compiler_uoa": "97ce21f1b4e349a9", 
+              "dataset_uoa": "0045c9b59e84318b", 
+              "keep_all_files": "no", 
+              "run_cmd_key": "default", 
+              "run_host_os_uoa": "7a95e0754c37610a", 
+              "run_target_os_uoa": "7a95e0754c37610a", 
+              "run_target_processor_uoa": "5294d2983f398626", 
+              "work_dir_data_uoa": "1db78910464c9d05", 
+              "work_dir_module_uoa": "45741e3fbcf4024b", 
+              "work_dir_repo_uoa": "f476d66140b8b3db"
+            }, 
+            "output": {
+              "global_compiler_desc_name": "gcc-4.6.x-shorter", 
+              "global_compiler_package_name": "Sourcery GCC 4.6.3 for Windows MingW32 targetting ARM", 
+              "global_dataset_name": "image-raw-bin-fgg-office-night-gray", 
+              "global_dataset_uid": "0045c9b59e84318b", 
+              "global_source_code_name": "cBench: bw filter codelet 2 simplified less (copy)", 
+              "global_source_code_uid": "1db78910464c9d05"
+            }
+          }, 
+          "keep_all_files": "no", 
+          "misc": {
+            "cm_iso_datetime_finished": "2014-08-18T10:26:12.434000", 
+            "cm_iso_datetime_started": "2014-08-18T10:25:41.626000", 
+            "cm_user_uid": "0728a400aa1c86fe", 
+            "dissemination": {
+              "publications": [
+                "6f40bc99c4f7df58", 
+                "1943b3f46fabaee4", 
+                "983680d43b0b033d"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ], 
+  "powered_by": {
+    "name": "Collective Mind Engine", 
+    "version": "1.0.3121.beta"
+  }, 
+  "scenario_module_uoa": "4df5b2509a4feabf", 
+  "summary_point": {
+    "compilation_type": "dynamic", 
+    "compiler_package_uoa": "8a8ac1fddae75454", 
+    "ctuning_compiler_uoa": "97ce21f1b4e349a9", 
+    "dataset_uoa": "0045c9b59e84318b", 
+    "host_os_uoa": "7a95e0754c37610a", 
+    "notes": "", 
+    "processor_string": "ARMv7 Processor rev 4 (v7l)", 
+    "program_uoa": "1db78910464c9d05", 
+    "run_cmd_key": "default", 
+    "target_os_uoa": "338d4564adb44448", 
+    "target_processor_uoa": "5294d2983f398626", 
+    "tuning_objective": "et"
+  }, 
+  "summary_point_relaxed": {
+    "compilation_type": "dynamic", 
+    "compiler_package_uoa": "8a8ac1fddae75454", 
+    "ctuning_compiler_uoa": "97ce21f1b4e349a9", 
+    "dataset_uoa": "0045c9b59e84318b", 
+    "host_os_uoa": "7a95e0754c37610a", 
+    "memory_string": "845 MB", 
+    "notes": "", 
+    "os_string": "Linux version 3.3.0 (zhengzhenxing@brn-zhengzhenxing) (gcc version 4.6.3 20120201 (prerelease) (crosstool-NG linaro-1.13.1-2012.02-20120222 - Linaro GCC 2012.02) ) #1 SMP PREEMPT Thu Sep 26 16:33:59 CST 2013", 
+    "processor_string": "ARMv7 Processor rev 4 (v7l)", 
+    "program_uoa": "1db78910464c9d05", 
+    "run_cmd_key": "default", 
+    "system_string": "Unknown wing_s906I", 
+    "target_os_uoa": "338d4564adb44448", 
+    "target_processor_uoa": "5294d2983f398626", 
+    "tuning_objective": "et", 
+    "user_friendly_system_name": ""
+  }
+}
